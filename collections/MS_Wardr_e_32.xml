@@ -561,6 +561,7 @@
    </teiHeader>
    <text>
       <body>
+         <div type="original" n="1">
          <div>            
             <head rend="centered">Georgian Lessons from <name> Olga Mirzashvili</name></head>
             <pb n="1"/>
@@ -2538,8 +2539,8 @@
                Apa a rupte podul. Dinții fearelor sunt mai <lb/>
                tari de cât ai noștri. Lupul perul <del type="overstrike">se</del> iși schimba <lb/>
                dar năravul ba. Bucatarul a cumparat <lb/>
-               carne de la macelar. </p>
-            
+               carne de la macelar. </p>           
+         </div>
          </div>
       </body>
    </text>
