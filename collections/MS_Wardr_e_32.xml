@@ -1,0 +1,2546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="full">
+               <title type="main" xml:lang="en">A book of translations, lessons (Georgian, Russian,
+                  Rumanian) with handwriting of Marjory Wardrop</title>
+            </title>
+            <funder>JISC</funder>
+            <principal>Gillian Evison</principal>
+         </titleStmt>
+         <editionStmt>
+            <edition n="1">First digital edition, TEI P5 <date>10 January 2025</date>
+            </edition>
+            <funder>The project Studies of the grammatical structure of Georgian according to the
+               manuscripts of the Wardrop collection is carried out within the framework of <ref
+                  target="http://rustaveli.org.ge/">Joint Research Programme of the University of
+                  Oxford and SRNSFG in Georgian studies</ref>
+            </funder>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Bodleian Library</publisher>
+            <date calendar="#Gregorian">2025-01-10</date>
+            <pubPlace>
+               <address>
+                  <addrLine>Department of Special Collections</addrLine>
+                  <addrLine>Bodleian Library</addrLine>
+                  <street>Broad Street</street>
+                  <settlement>Oxford</settlement>
+                  <postCode>OX1 3BG</postCode>
+                  <addrLine>
+                     <ref target="http://www.bodleian.ox.ac.uk/libraries/collections">Bodleian
+                        Library</ref>
+                  </addrLine>
+                  <addrLine>
+                     <email>specialcollections.enquiries@bodleian.ox.ac.uk</email>
+                  </addrLine>
+               </address>
+            </pubPlace>
+            <idno type="msID">MS_Wardr_e_32</idno>
+            <idno type="catalogue">Georgian</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="MS_Wardr_e_32" xml:lang="en">
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <region type="county">Oxfordshire</region>
+                  <settlement>Oxford</settlement>
+                  <institution>Oxford University</institution>
+                  <repository>Bodleian Library</repository>
+                  <collection type="main">Oriental Manuscripts Wardrop Collection </collection>
+                  <idno>MS. Wardr. e. 32</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Language notebook of <persName key="Q6766368">Marjory Wardrop</persName>.
+                     Translations, lessons, texts c. relating to her Georgian, Russian and Rumanian
+                     Studies. Georgian lessons are from <persName>Olga Mizrashvili</persName>
+                     includes fragments from <persName key="Q333411">Ilia
+                     Chavchavadze's</persName>novel "glakhis naambobi". </summary>
+                  <msItem xml:id="Ms_Ward_e_32">
+                     <locus from="1p" to="48p">from 1p to 48p Georgian lessons</locus>
+                     <locus from="99p" to="91p">from 99p to 91p Rumanian lessons</locus>
+                     <locus from="105p" to="100p">from 105p to 100p Russian lessons</locus>
+                     <locus from="120p" to="107p">English translations</locus>
+                     <title xml:lang="en" key="work_32">A book of translations, lessons (Georgian,
+                        Russian, Rumanian) with handwriting of Marjory Wardrop.</title>
+                     <textLang mainLang="ka">Georgian</textLang> 
+                     <textLang otherLangs="ru">Russian</textLang>
+                     <textLang otherLangs="rum">Rumanian</textLang>
+                     <textLang otherLangs="en">used for translations of Georgian texts and
+                        vocabulary</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="notebook">
+                     <supportDesc material="paper">
+                        <support>The Manuscript is written in notebook form.</support>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>24</height>
+                              <width>16</width>
+                           </dimensions></extent>
+                        <foliation>There is not any kind of original pagination. Pencil pagination
+                           is added probably by the library. Russian and Rumanian lessons alongside
+                           English translations start from the end of the notebook from p.120 to
+                           p.91</foliation>
+                        <condition>Leaves of manuscript are not damaged. Some pages are left
+                           blank</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" xml:id="h1">The whole text of manuscript is written by
+                        hand No 1. The scribe is almost certainly <persName role="scr" key="person_"></persName></handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate calendar="#Gregorian" when="1905">1905</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <availability status="restricted">
+                        <p>Entry to read in the Library is permitted only on presentation of a valid
+                           reader's card (for admissions procedures contact <ref
+                              target="http://www.bodleian.ox.ac.uk/services/admissions/">Bodleian
+                              Admissions</ref>).</p>
+                     </availability>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+            <listPlace>
+               <head xml:lang="ka">გეოგრაფიული სახელწოდებები</head>
+               <head xml:lang="en">Geographical Places</head>
+               <place xml:id="place001">
+                  <placeName xml:lang="ka">ალექსანდრია</placeName>
+                  <placeName xml:lang="en">Alexandria</placeName>
+               </place>
+               <place xml:id="place002">
+                  <placeName xml:lang="ka">გელათი</placeName>
+                  <placeName xml:lang="en">Gelathi</placeName>
+               </place>
+               <place xml:id="place003">
+                  <placeName xml:lang="ka">ხონი</placeName>
+                  <placeName xml:lang="en">Khoni</placeName>
+               </place>
+               <place xml:id="place004">
+                  <placeName xml:lang="ka">თიგვი</placeName>
+                  <placeName xml:lang="en">Tigvi</placeName>
+               </place>
+               <place xml:id="place005">
+                  <placeName xml:lang="ka">ქართლი</placeName>
+                  <placeName xml:lang="en">Karthli</placeName>
+               </place>
+               <place xml:id="place006">
+                  <placeName xml:lang="ka">კასპი</placeName>
+                  <placeName xml:lang="en">Caspian</placeName>
+               </place>
+               <place xml:id="place007">
+                  <placeName xml:lang="ka">საქართველო</placeName>
+                  <placeName xml:lang="en">Georgia</placeName>
+               </place>
+               <place xml:id="place008">
+                  <placeName xml:lang="ka">დერბენტი</placeName>
+                  <placeName xml:lang="en">Derbend</placeName>
+               </place>
+               <place xml:id="place009">
+                  <placeName xml:lang="ka">ტრაბზონი</placeName>
+                  <placeName xml:lang="en">Trebizond</placeName>
+               </place>
+               <place xml:id="place010">
+                  <placeName xml:lang="ka">კავკასია</placeName>
+                  <placeName xml:lang="en">Caucasus</placeName>
+               </place>
+               <place xml:id="place011">
+                  <placeName xml:lang="ka">დამასკი</placeName>
+                  <placeName xml:lang="en">Damascus</placeName>
+               </place>
+               <place xml:id="place012">
+                  <placeName xml:lang="ka">შავი ზღვა</placeName>
+                  <placeName xml:lang="en">Black Sea</placeName>
+               </place>
+               <place xml:id="place013">
+                  <placeName xml:lang="ka">კახეთი</placeName>
+                  <placeName xml:lang="en">Cakheti</placeName>
+               </place>
+               <place xml:id="place014">
+                  <placeName xml:lang="ka">ქუთაისი</placeName>
+                  <placeName xml:lang="en">Kutaisi</placeName>
+               </place>
+               <place xml:id="place015">
+                  <placeName xml:lang="ka">იმერეთი</placeName>
+                  <placeName xml:lang="en">Imeretia</placeName>
+               </place>
+               <place xml:id="place016">
+                  <placeName xml:lang="ka">საჩხერე</placeName>
+                  <placeName xml:lang="en">Sachkere</placeName>
+               </place>
+               <place xml:id="place017">
+                  <placeName xml:lang="ka">ხრეილი</placeName>
+                  <placeName xml:lang="en">Khreili</placeName>
+               </place>
+               <place xml:id="place018">
+                  <placeName xml:lang="ka">წირქვალი</placeName>
+                  <placeName xml:lang="en">Tsirkvali</placeName>
+               </place>
+               <place xml:id="place019">
+                  <placeName xml:lang="ka">ჭიათურა</placeName>
+                  <placeName xml:lang="en">Chiaturi</placeName>
+               </place>
+               <place xml:id="place020">
+                  <placeName xml:lang="ka">ქორეთლები</placeName>
+                  <placeName xml:lang="en">Koretlebi</placeName>
+               </place>
+               <place xml:id="place021">
+                  <placeName xml:lang="ka">წირქვალი</placeName>
+                  <placeName xml:lang="en">Tsirkvali</placeName>
+               </place>
+               <place xml:id="place022">
+                  <placeName xml:lang="ka">სტვისი</placeName>
+                  <placeName xml:lang="en">Stvisi</placeName>
+               </place>
+               <place xml:id="place023">
+                  <placeName xml:lang="ka">ცაგერი</placeName>
+                  <placeName xml:lang="en">Tzageri</placeName>
+               </place>
+               <place xml:id="place024">
+                  <placeName xml:lang="ka">ახალჭალა</placeName>
+                  <placeName xml:lang="en">Akhaldchala</placeName>
+               </place>
+               <place xml:id="place025">
+                  <placeName xml:lang="ka">ჭქვიში</placeName>
+                  <placeName xml:lang="en">Dchqvishi</placeName>
+               </place>
+               <place xml:id="place026">
+                  <placeName xml:lang="ka">ლეჩხუმი</placeName>
+                  <placeName xml:lang="en">Letchkum</placeName>
+               </place>
+               <place xml:id="place027">
+                  <placeName xml:lang="ka">რაჭა</placeName>
+                  <placeName xml:lang="en">Radcha</placeName>
+               </place>
+               <place xml:id="place028">
+                  <placeName xml:lang="ka">ხვანჭკარა</placeName>
+                  <placeName xml:lang="en">Khvandchkara</placeName>
+               </place>
+               <place xml:id="place029">
+                  <placeName xml:lang="ka">ონი</placeName>
+                  <placeName xml:lang="en">Oni</placeName>
+               </place>
+               <place xml:id="place030">
+                  <placeName xml:lang="ka">ნიკორწმინდა</placeName>
+                  <placeName xml:lang="en">Nicortsminda</placeName>
+               </place>
+               <place xml:id="place031">
+                  <placeName xml:lang="ka">ხოთევი</placeName>
+                  <placeName xml:lang="en">Khotevi</placeName>
+               </place>
+               <place xml:id="place032">
+                  <placeName xml:lang="ka">ზუგდიდი</placeName>
+                  <placeName xml:lang="en">Zugdidi</placeName>
+               </place>
+               <place xml:id="place033">
+                  <placeName xml:lang="ka">დჭადუაში</placeName>
+                  <placeName xml:lang="en">Dchcaduashi</placeName>
+               </place>
+               <place xml:id="place034">
+                  <placeName xml:lang="ka">ტეზერი</placeName>
+                  <placeName xml:lang="en">Tezeri</placeName>
+               </place>
+               <place xml:id="place035">
+                  <placeName xml:lang="ka">ხაშური</placeName>
+                  <placeName xml:lang="en">Khashuri</placeName>
+               </place>
+               <place xml:id="place036">
+                  <placeName xml:lang="ka">ბეღლეთი</placeName>
+                  <placeName xml:lang="en">Beghleti</placeName>
+               </place>
+               <place xml:id="place037">
+                  <placeName xml:lang="ka">გორი</placeName>
+                  <placeName xml:lang="en">Gori</placeName>
+               </place>
+               <place xml:id="place038">
+                  <placeName xml:lang="ka">ტირძმისი</placeName>
+                  <placeName xml:lang="en">Tirdzmisi</placeName>
+               </place>
+               <place xml:id="place039">
+                  <placeName xml:lang="ka">შორაპანი</placeName>
+                  <placeName xml:lang="en">Shorapan</placeName>
+               </place>
+               <place xml:id="place040">
+                  <placeName xml:lang="ka">ზესტაფონი</placeName>
+                  <placeName xml:lang="en">Zestaphoni</placeName>
+               </place>
+               <place xml:id="place041">
+                  <placeName xml:lang="ka">კალეგატი</placeName>
+                  <placeName xml:lang="en">Calegati</placeName>
+               </place>
+               <place xml:id="place042">
+                  <placeName xml:lang="ka">ქორელი</placeName>
+                  <placeName xml:lang="en">Koreli</placeName>
+               </place>
+               <place xml:id="place043">
+                  <placeName xml:lang="ka">საირხე</placeName>
+                  <placeName xml:lang="en">Sairkhe</placeName>
+               </place>
+               <place xml:id="place044">
+                  <placeName xml:lang="ka">მერჯევი</placeName>
+                  <placeName xml:lang="en">Merjevi</placeName>
+               </place>
+               <place xml:id="place045">
+                  <placeName xml:lang="ka">ივანწმინდა</placeName>
+                  <placeName xml:lang="en">Ivantsminda</placeName>
+               </place>
+               <place xml:id="place046">
+                  <placeName xml:lang="ka">სავანე</placeName>
+                  <placeName xml:lang="en">Savane</placeName>
+               </place>
+               <place xml:id="place047">
+                  <placeName xml:lang="ka">ჩიხი</placeName>
+                  <placeName xml:lang="en">Chikhi</placeName>
+               </place>
+               <place xml:id="place048">
+                  <placeName xml:lang="ka">დუნტი</placeName>
+                  <placeName xml:lang="en">Dunti</placeName>
+               </place>
+               <place xml:id="place049">
+                  <placeName xml:lang="ka">პასიეთი</placeName>
+                  <placeName xml:lang="en">Pasieti</placeName>
+               </place>
+               <place xml:id="place050">
+                  <placeName xml:lang="ka">კალუტა</placeName>
+                  <placeName xml:lang="en">Caluta</placeName>
+               </place>
+               <place xml:id="place051">
+                  <placeName xml:lang="ka">კვალიტი</placeName>
+                  <placeName xml:lang="en">Cvaliti</placeName>
+               </place>
+               <place xml:id="place052">
+                  <placeName xml:lang="ka">პული</placeName>
+                  <placeName xml:lang="en">Puli</placeName>
+               </place>
+               <place xml:id="place053">
+                  <placeName xml:lang="ka">ილემი</placeName>
+                  <placeName xml:lang="en">Ilemi</placeName>
+               </place>
+               <place xml:id="place054">
+                  <placeName xml:lang="ka">გრაკალი</placeName>
+                  <placeName xml:lang="en">Gracali</placeName>
+               </place>
+               <place xml:id="place055">
+                  <placeName xml:lang="ka">ზარაღაუსი</placeName>
+                  <placeName xml:lang="en">Zaraghaus</placeName>
+               </place>
+               <place xml:id="place056">
+                  <placeName xml:lang="ka">ხანდაკი</placeName>
+                  <placeName xml:lang="en">Khandaci</placeName>
+               </place>
+               <place xml:id="place057">
+                  <placeName xml:lang="ka">დოესი</placeName>
+                  <placeName xml:lang="en">Doesi</placeName>
+               </place>
+               <place xml:id="place058">
+                  <placeName xml:lang="ka">გურია</placeName>
+                  <placeName xml:lang="en">Guria</placeName>
+               </place>
+               <place xml:id="place059">
+                  <placeName xml:lang="ka">ტოლა</placeName>
+                  <placeName xml:lang="en">Tola</placeName>
+               </place>
+            </listPlace>
+            <listPerson>
+               <head xml:lang="ka">პირები</head>
+               <head xml:lang="en">Persons</head>
+               <person xml:id="person001">
+                  <persName xml:lang="ka">თამარ</persName>
+                  <persName xml:lang="en">Tamara</persName>
+               </person>
+               <person xml:id="person002">
+                  <persName xml:lang="ka">დემეტრე</persName>
+                  <persName xml:lang="en">Dmitri</persName>
+               </person>
+               <person xml:id="person003">
+                  <persName xml:lang="ka">დავითი</persName>
+                  <persName xml:lang="en">David</persName>
+               </person>
+               <person xml:id="person004">
+                  <persName xml:lang="ka">გიორგი</persName>
+                  <persName xml:lang="en">Giorgi</persName>
+               </person>
+               <person xml:id="person005">
+                  <persName xml:lang="ka">რუსუდანი</persName>
+                  <persName xml:lang="en">Rusudan</persName>
+               </person>
+               <person xml:id="person006">
+                  <persName xml:lang="ka">დემეტრე</persName>
+                  <persName xml:lang="en">Dmitri</persName>
+               </person>
+               <person xml:id="person007">
+                  <persName xml:lang="ka">თამარ</persName>
+                  <persName xml:lang="en">Tamara</persName>
+               </person>
+               <person xml:id="person008">
+                  <persName xml:lang="ka">ა. წერეთელი</persName>
+                  <persName xml:lang="en">A. Tsereteli</persName>
+               </person>
+               <person xml:id="person009">
+                  <persName xml:lang="ka">აღა მაჰმად ხანი</persName>
+                  <persName xml:lang="en">Agha Mahmad Khan</persName>
+               </person>
+               <person xml:id="person010">
+                  <persName xml:lang="ka">შაქრო</persName>
+                  <persName xml:lang="en">Shakro</persName>
+               </person>
+               <person xml:id="person011">
+                  <persName xml:lang="ka">ადამ გუმბურიძე</persName>
+                  <persName xml:lang="en">Adam Gumburidze</persName>
+               </person>
+               <person xml:id="person012">
+                  <persName xml:lang="ka">აბრამიშვილი</persName>
+                  <persName xml:lang="en">Abramishvili</persName>
+               </person>
+               <person xml:id="person013">
+                  <persName xml:lang="ka">ვანო კირვალიძე</persName>
+                  <persName xml:lang="en">Vano Kirvalidze</persName>
+               </person>
+               <person xml:id="person014">
+                  <persName xml:lang="ka">იოსებ იაშვილი</persName>
+                  <persName xml:lang="en">Joseb Iashvili</persName>
+               </person>
+               <person xml:id="person015">
+                  <persName xml:lang="ka">ლადო იაშვილი</persName>
+                  <persName xml:lang="en">Lado Iashvili</persName>
+               </person>
+               <person xml:id="person016">
+                  <persName xml:lang="ka">როსტომ იაშვილი</persName>
+                  <persName xml:lang="en">Rostom Iashvili</persName>
+               </person>
+               <person xml:id="person017">
+                  <persName xml:lang="ka">გრიგოლ გელოვანი</persName>
+                  <persName xml:lang="en">Grigol Gelovani</persName>
+               </person>
+               <person xml:id="person018">
+                  <persName xml:lang="ka">ლადო იაშვილი</persName>
+                  <persName xml:lang="en">Lado Iashvili</persName>
+               </person>
+               <person xml:id="person019">
+                  <persName xml:lang="ka">დიმიტრი ახოლოებიანი</persName>
+                  <persName xml:lang="en">Dimitri  Akholoebiani</persName>
+               </person>
+               <person xml:id="person020">
+                  <persName xml:lang="ka">ალექსი გელოვანი</persName>
+                  <persName xml:lang="en">Aleksi Gelovani</persName>
+               </person>
+               <person xml:id="person021">
+                  <persName xml:lang="ka">გასპარია ცხვედიანი</persName>
+                  <persName xml:lang="en">Gasparia Tzkhvediani</persName>
+               </person>
+               <person xml:id="person022">
+                  <persName xml:lang="ka">სოლომონ ბენდჭაძე</persName>
+                  <persName xml:lang="en">Solomon Bendchadze</persName>
+               </person>
+               <person xml:id="person023">
+                  <persName xml:lang="ka">ყიფიანი</persName>
+                  <persName xml:lang="en">Kipiani</persName>
+               </person>
+               <person xml:id="person024">
+                  <persName xml:lang="ka">ვასო ბობოხიძე</persName>
+                  <persName xml:lang="en">Vaso Bobokhidze</persName>
+               </person>
+               <person xml:id="person025">
+                  <persName xml:lang="ka">ერმილე ბობოხიძე</persName>
+                  <persName xml:lang="en">Ermile Bobokhidze</persName>
+               </person>
+               <person xml:id="person026">
+                  <persName xml:lang="ka">ოსია გორდეზიანი</persName>
+                  <persName xml:lang="en">Osia Gordeziani</persName>
+               </person>
+               <person xml:id="person027">
+                  <persName xml:lang="ka">მინხა ჩიჩინაძე</persName>
+                  <persName xml:lang="en">Minkha Chichinadze</persName>
+               </person>
+               <person xml:id="person028">
+                  <persName xml:lang="ka">ალშიბაია</persName>
+                  <persName xml:lang="en">Alshibaia</persName>
+               </person>
+               <person xml:id="person029">
+                  <persName xml:lang="ka">ვასო ალშიბაია</persName>
+                  <persName xml:lang="en">Vaso Alshibaia</persName>
+               </person>
+               <person xml:id="person030">
+                  <persName xml:lang="ka">გაღამოვი</persName>
+                  <persName xml:lang="en">Gaghamov</persName>
+               </person>
+               <person xml:id="person031">
+                  <persName xml:lang="ka">მუშნი დადიანი</persName>
+                  <persName xml:lang="en">Mushni Dadiani</persName>
+               </person>
+               <person xml:id="person032">
+                  <persName xml:lang="ka">ჭედლიძე</persName>
+                  <persName xml:lang="en">Dchedlidze</persName>
+               </person>
+               <person xml:id="person033">
+                  <persName xml:lang="ka">ისხაკ ისვემიშვილი</persName>
+                  <persName xml:lang="en">Iskhak Isvemishvili</persName>
+               </person>
+               <person xml:id="person034">
+                  <persName xml:lang="ka">არონ შატაშვილი</persName>
+                  <persName xml:lang="en">Aron Shatashvili </persName>
+               </person>
+               <person xml:id="person035">
+                  <persName xml:lang="ka">მეთონიძე</persName>
+                  <persName xml:lang="en">Metonidze</persName>
+               </person>
+               <person xml:id="person036">
+                  <persName xml:lang="ka">სასიმონიძე</persName>
+                  <persName xml:lang="en">Sasimonidze</persName>
+               </person>
+               <person xml:id="person037">
+                  <persName xml:lang="ka">გოდაბრელიძე</persName>
+                  <persName xml:lang="en">Godabrelidze</persName>
+               </person>
+               <person xml:id="person038">
+                  <persName xml:lang="ka">ლავრენტი წერეთელი</persName>
+                  <persName xml:lang="en">Lavrenti Tsereteli</persName>
+               </person>
+               <person xml:id="person039">
+                  <persName xml:lang="ka">გ. ლეჟავა</persName>
+                  <persName xml:lang="en">G. Lezhava</persName>
+               </person>
+               <person xml:id="person040">
+                  <persName xml:lang="ka">როსტომ გუნცაძე</persName>
+                  <persName xml:lang="en">Rostom Guntzadze</persName>
+               </person>
+               <person xml:id="person041">
+                  <persName xml:lang="ka">ბოჩორიშვილი</persName>
+                  <persName xml:lang="en">Bochorishvili</persName>
+               </person>
+               <person xml:id="person042">
+                  <persName xml:lang="ka">მერკვილიშვილი</persName>
+                  <persName xml:lang="en">Mercvilishvili</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="LCSH">
+               <bibl>
+                  <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress
+                     Subject Headings</ref>
+               </bibl>
+            </taxonomy>
+            <taxonomy xml:id="local_class">
+               <category xml:id="text">
+                  <catDesc>Text</catDesc>
+               </category>
+               <category xml:id="translation">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="word-lists">
+                  <catDesc>Word-lists</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ka">Georgian Language</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2025-01-10">
+            <persName>Svetlana Berikashvili</persName> Expanded meta-annotation and provided the
+            transcription. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>            
+            <head rend="centered">Georgian Lessons from <name> Olga Mirzashvili</name></head>
+            <pb n="1"/>
+            <head rend="italic">1st lesson. <date calendar="#Gregorian" when="190511">Nov. 5/18.
+                  1905</date></head>
+            <p>რ რ რ რ რ</p>
+            <p>მე (1) ჩამაჩნდა გულში მისი სახე - his face made a great impression on me</p>
+            <p>(2) ჩამრჩა - (both of a living person, 2 only of thing </p>
+         </div>
+         <div>
+            <head>გლახის ნაამბობი</head>
+            <p>მე, სწორედ მოგახსენოთ, დაიწყო ხელახლად გლახამა, ჩემს ვინაობას არ გეტყოდი, თუ ჩემი<lb/>
+               აღსასრული არ მოახლო<del type="overstrike">ბ</del><add place="inline">ვ</add>ებულიყოს,<lb/>
+               ვიცი ჩემი დღე დათვლილია თუმცა ძალიან კი მეძნელება თქმა, მაგრამ რა გაეწყობა. გულში<lb/>
+               გა<del type="overstrike">ე</del><add place="above">ი</add>ღვიძა კიდევაც ძველებურმა<lb/>
+               საქმემა და ეხლა რაღა დროს დამალვაა? გინდ ეგ არ იყოს, ეხლა <del type="overstrike"
+                  >არა</del><add place="above">აღარა</add>ფრისა მეშინიან თუნდა გამცე კიდეც. მე<lb/>
+               როდესაც ვ(ჰ)ფიქრობდი ჩემის ვინაობის დამალვასა როცა სიცოცხლე ტკბილი იყო ჩემთვისაც,<lb/>
+               როცა იმედი მქონდა რომ ქვეყანაზედ მეც როგორც იქნებოდა შრომით თუ ოფლით ვიყიდდი ლუკმა<lb/>
+               <del type="overstrike">ფ</del><add place="above">პ</add>ურსა და ისე დავლევდი წუთის<lb/>
+               სოფლის დღესა. ეხლა კი, როცა სიცოცხლე ბალღამსავით გამიმწარდა და ის ერთად-ერთი,<lb/>
+               ჩემსავით ობოლი იმედი წამართო ჟამთა ვითარებამა, ეხლა მე ფიქრი აღარაფრისა არა მაქვს.<lb/>
+               გეტყვი <pb n="2"/> ყოველ ჩემს გარდასავალს და დაე ღმერთმა ეს აღსარებად მიმითვალოს. თუ<lb/>
+               რამ შევ<del type="overstrike">წ</del><add place="inline">ც</add>ოდე და მონანება ვერ<lb/>
+               მოვასწარ, შემინდოს. მე ვარ ნაყაჩაღევი. ჩემი თავი ერთ დროს წმინდა გიორგის ჯვარათ იყო<lb/>
+               დაფასებული, მაგრამ, ხომ მხედავთ, შესყიდულმა ტყვიამ აქამდის<del type="overstrike"
+                  >ი</del><add place="above">(ინ)</add> ვერ მიპოვა. მე, მართალია, ვიყავ ერთ დროს კაი<lb/>
+                  <del type="overstrike">მოსყხეფპილი</del>
+               <add place="inline">მოსხეპილი</add>, ხელმარჯვე ბიჭი, და ძალი და ღონე ყველაფერში<lb/>
+               შემწევდა, მაგრამ, ღვთის წინაშე ვაღიარებ მე საყაჩაღო კაცი არ ვიყავი. იქ ასეთი გული<lb/>
+               უნდა, რომ დედას კალთაში შვილი მოუკლა და ხელი არა აგიკანკალდეს. მე იმისთან არ ვიყავ,<lb/>
+               გული მორბილებული მქონდა პატარაობითვე, მე ყმაწვილობითვე სხვა მზემ დამკრა და სხვარიგად<lb/>
+               გამითბო გული მაგრამ ჟამმა მიმუხთლა და კაცმა არ მ<del type="overstrike">ი</del><add
+                  place="inline">ა</add>პატივა, მეც დავკარ ფეხი და გავვარდი ყაჩაღად.</p>
+            <p>ჯ ს პ პ პ</p>
+         </div>
+         <div>            
+            <head rend="italic">2nd lesson.<date calendar="#Gregorian" when="190511">Nov. 9/22.
+                  1905</date>
+            </head>
+            <pb n="3"/>
+            <head rend="underline">გლახის ნაამბობი</head>
+            <p>რა ქმნას კარგმა მონარდემა</p>
+            <p>დროზედ შაში თუ არ მოდის?</p>
+            <p>მე, სწორედ, ნადირობის ტრფიალს რომ იტყვინ, ისა ვარ. საკვირველად მიყვარს დაბურულ<add
+               place="above">ს</add> <lb/>ხმა-გაკმენდილ ტყეში ხის ძირას ჯდომა, მილეულის გულის ცემით<lb/>
+               ლოდინი ნათვალევის ნადირისა. თუ გნებავთ, ამასაც კი ვიტყვი: ნადირობა ცოდვაა. ყოველი<lb/>
+               სულიერი ღვთის დანაბადია და ყველას აქვს თანასწორი ნება ამ თვალ-მიუწდომელ ქვეყანაზედ<lb/>
+               ცხოვრებ<del type="overstrike">ა</del><add place="above">ი</add>სა მაგრამ რა<lb/>
+               გაეწყობა? ტყვილად კი არ გვარწმუნებს ჩვენი საღმრთო წერილი რომ პირველი <del
+                  type="overstrike">უბ</del><lb/> სისხლი უბოროტო ქვეყანაზედ კაცმა კაცისა: დაანთხია. კაცი<lb/>
+               მოსისხლეა: მეც კაცთაგანი ვარ.</p>
+         </div>
+         <div>            
+            <head>გაგრძელება გლახის ნაამბობისა.</head>
+            <pb n="4"/>
+            <p>მე კახელი არ გახლავარ, მო<del type="overstrike">ყ</del><add place="above">ჰ</add><choice>
+                  <sic>ს</sic>
+                  <corr><add place="above">ს</add><del type="above">ს</del></corr>
+               </choice>ვა კვლავ მცირე ჩა<del type="overstrike">პ</del><add place="below"
+                  >ფ</add>იქრების შემდეგ.<lb/>ჩემი მიწა წყალი როგორც მ<del type="overstrike">ა</del><add
+                  place="above">ო</add>გახსენებ აქედგან შორს არის და ვაი რომ <del type="overstrike"
+                     >ა</del>ჩემს სიცოცხლეში იმ მიწას ვეღარ ვინახულებ და იმ წყალს ვეღარ დავეწაფები.<lb/>
+               შვიდის წლიდან მოკიდებული ოც წლამდინ ჩემის გან<del type="overstrike">დ</del><add
+                  place="above">თ</add>იადის დღენი ბატონის სახლში დამიღამებია. ის ღმერთმა იცის ცაში<lb/>
+               და დედამიწაზედ რაც მე იქ გულმტკივნეულად მიწევნია უღელი; მაგრამ დამნახავი ვინ იყო<lb/>
+               მაღალის ღმერთის მეტი.</p>
+            <p>ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ს ს ს ს ს ს ს ს ს ს ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ ტ</p>
+         </div>
+         <div>            
+            <head rend="italic">3rd lesson.<date calendar="#Gregorian" when="190511">12/25 Nov.
+                  1905</date>
+            </head>
+            <pb n="5"/>
+            <head rend="underline">გაგრძელება გლახის ნაამბობისა.</head>
+            <p>მე კახელი არ გახლავარ, — მოჰყვა კვლავ მცირე ჩაფიქრების შემდეგ: ჩემი მიწა-წყალი,<lb/>
+               როგორც მოგახსენეთ, აქედამ შორს არის, და ვაი რომ ჩემ სიცოცხლეში იმ მიწას ვეღარ<lb/>
+               ვინახულებ და იმ წყალს ვეღარ დავეწაფები! შვიდის წლიდან მოკიდებული ოც წლამდინ ჩემის<lb/>
+               განთიადის დღენი ბატონის სახლში დამიღამებია. ის ღმერთმა იცის ცაში და მიწაზედ — მე, რაც<lb/>
+               მე იქ გულმტკივნეულად მიწევნია უღელი; მაგრამ დამნახავი ვინ იყო, მაღალის ღმერთის მეტი?<lb/>
+               თავდაპირველადვე ამადევნეს ჩემოდენა ბატონის - შვილსა, დათიკოს. კაი მოგეცათ, კაი ბავშვი<lb/>
+               ის იყო პატარაობისას. ჩემი წყენა ბატონის სახლში არავის შეეძლო; დათიკოს რომ ვუყვარდი,<lb/>
+               ყველას იმისი რიდი ჰქონდა. დათიკო, როგორც მოგეხსენებათ მამის-ერთა ბავშვის ამბავი, მეტი<lb/>
+               გაზვიადებული რამ იყო, განებიერებული, <pb n="6"/> ერთს ალიაქოთს ასტეხდა ხოლმე, რომ<lb/>
+               ჩემთვინ ეწყენინებინათ რამე. მე, სწორედ მოგახსენოთ, ძალიან შევიჩვიე ჩვენი პატარა<lb/>
+               ბატონი, იმანაც შემიჩვია, ასე რომ ბოლოს ეს შეჩვევა მე სიყვარულად გადამექცა.</p>
+            <p>ვ ყმაწვილის გული, შენი ჭირიმე, ადრეულა ყვავილსა ჰგავს: მზე დაჰხედავს თუ არა,<lb/>
+               გაიშლება, <del type="overstrike">ის</del> ის კი აღარ იცის, რომ ზამთრის <del
+                  type="overstrike">სუხ</del><lb/>
+               <del type="overstrike">ს</del> სუსხი სუსხი კიდევ მოასწრობს ნამდვილ გაზაფხულამდე და<lb/>
+               დააჭკნობს. მე რა ვიცოდი? ჩემი გული პირველად ბატონის სახლში გათბა და ამ სითბო<add
+                  place="above">მ</add>ვე<lb/>ბოლო მომიღო. თუნდ ეგ არ იყოს, შინისაკენ მე გული არ<lb/>
+               მიმიწევდა.<del type="overstrike">ა</del> იქ ასეთი სულთამხუთავი დედინაცვალი მეჯდა,<lb/>
+               რომ, როცა კი მოვიგონებდი, ჟრჟოლას მომგვრიდა მარიამობის თთვის ცივებასავით, ბატონთან კი<lb/>
+               განებიერებული ვიყავ ბატონის შვილსავით. დათიკოს ვუყვარდი და მეც მიყვარდა. მაშინ რა<lb/>
+               ვიცოდი სულელმა, რომ უფროს-უმცროსობაში <del type="overstrike">ს</del> სიყვარული<lb/>
+               სიზმარია? რა ვიცოდი, რომა ბატონ-ყმობის შუა სიყვარულის ხიდი არ გაიდება? ეგრე ყოფილა<lb/>
+               ქვეყანაზედა, ცალს თურმე ცალმა უნდა უცალოს!... <del type="overstrike">ეს</del> ეს რომ<lb/>
+               მცოდნოდა, ღმერთსა ვფიცავ და <pb n="7"/> ჩემ მამა-პაპის სალოცავსა, გულში ნაღველას<lb/>
+               ჩავიწურავდი და იმის სიყვარულს კი იქ არ გავიტარებდი. მაშინ რა ვიცოდი!... </p>
+         </div>
+         <div>
+            <head rend="italic">4th lesson.<date calendar="#Gregorian" when="1905-11"> 16/29 Nov.
+                  1905</date>
+            </head>
+            <p><add place="margin"><date calendar="#Gregorian" when="190111"> 14/24 XI
+                  1901</date></add></p>
+            <p>თოთხმეტის წლისა შევიქენით ბატონი და ყმა, როცა ქალაქში სასწავლებლად დათიკოს გაგზავნა<lb/>
+               დიდმა ბატონმა დააპირა. მეც, რასაკვირველია, თან უნდა გავყოლოდი. მამა-ჩემმა რომ შეიტყო<lb/>
+               ესა, იახლა ბატონს და ჩემი თავი სთხოვა. ხომ მოგეხსენებათ: გლეხკაცისათვის თოთხმეტის<lb/>
+               წლის ბიჭი ოჯახობაში განძი არის. თუ ბიჭი პატარა მადლიანია, ამ ხანში კარგად შეიძლებს<lb/>
+               გლეხკაცის ჭირის და ლხინის განახე<del type="over">ბ</del><add place="over"
+                  >ვ</add>რებასა. თუნდ ეგ არ იყოს, მამა ჩემს პირველ ცოლიდამ მარტო მე დავრჩი, და მგონია,<lb/>
+               ვეძნელებოდი, არ ვემეტებოდი შორს გასაგზავნად.</p>
+            <p>დიდი ბატონი — ღმერთმა აცოცხლოს — მეტი გულთბილი კაცი იყო. ჩემი დათიკოსთან მოშორებაც<lb/>
+               ეძნელებოდა და მამა-ჩემიც ეცოდებოდა. ის დალოცვილი მე მომიბრუნდა და მიბრძანა: გაბრუშკი!<lb/>
+               თუ არ გინდა დათიკოსთან წასვლა, აქ დარჩი მამა-შენთან, მე ძალას არ დაგატან. ვიცი, ამას<lb/>
+               დათიკო იწყენს, მაგრამ რა ვუყოთ? შვილი მამისა არის. <pb n="8"/> ამისთანა კეთილი იყო ის<lb/>
+               კურთხეული! ბატონის კაცის შვილი მამისა კი არ არის, ბატონისაა, მაგრამ ის კურთხეულის<lb/>
+               შვილი სხვა გულის პატრონი იყო...</p>
+            <p>მე ალმური ამივიდა სახეზედა, ბატონი თითქმის მამა-ჩემს მოურბილდა და, ვაი თუ აქ<lb/>
+               დამაგდონ-მეთქი. ის კი არ იცოდნენ: მე დათიკოსთან სიკვდილი მერჩივნა ჩემ დედი-ნაცვალთან<lb/>
+               ასის წლის ცხოვრებასა. გული მეტკინა, მახსოვს თვალებში ცრემლიც მომერია, ვსთქვი ჩემ<lb/>
+               გულში: გამიწყრა ღმერთი, ისევ ჩამაგდეს იმ ქაჯის ხელშია! მაგრამ, ღმერთმა უშველოს,<lb/>
+               დათიკომ დამიხსნა ცეცხლისაგან. ის თავდაპირველადვე ერთი ამაყი, თვით-რჯული ბავშვი იყო,<lb/>
+               რასაც(ა) იტყოდა, მოკვდებოდა და თავის ქეიფზედ კი გაივლიდა. </p>
+         </div>
+         <div>
+            <head rend="italic">5th lesson.<date calendar="#Gregorian" when="190512">
+                     19/<unclear>1</unclear> Dec. 1905</date>
+            </head>
+            <p>მე რომ დავჩუმდი, დიდ ბატონს ის მიუბრუნდა და თამამად უთხრა: თუ გაბრუშკას არ გამატანთ,<lb/>
+               მე ქალაქში წამსვლელი არა ვარ. გაჯიუტდა ეს ყმაწვილი, ზედ გადააკვდნენ და ვერ<lb/>
+               გადაათქმევინეს ნათქვამი. რა ექმნა დიდ ბატონსა? მამი ჩემისაც ეხათრებოდა და თავის<lb/>
+               შვილის ამბავიც იცოდა. ბოლოს, რომ ვერა გააწყო-რა, ბატონმა <pb n="9"/> ისევ მამი-ჩემის<lb/>
+               წყენა ირჩია და უთხრა თავისებურად, გულმტკივნეულად: ხომ ჰხედავ, ჩემი დათო, დათიკო ისე<lb/>
+               შეჰჩევია შენს შვილს, რომ მოშორება ეძნელება. დაე წავიდნენ! კარგია რომ პატარაობითვე<lb/>
+               ბატონი და ყმა შეეჩვივნენ: ყმისათვის ბატონთან შეზრდილობა დიდი ზურგია. ნუ დაუშლი, თუ<lb/>
+               ღმერთი გწამს, დაე უყვარდეთ ერთმანეთი.</p>
+            <p>მამა-ჩემსა ვერაფრად ეჭაშნიკა ეს <add place="inline">ს</add><del type="overstrike"
+               >ნ</del>აუბარი ბატონისა; უგემურად გაიქნია თავი და ისე გაჯავრებული და გულ-აყრილი<lb/>
+               წავიდა, რომ, როცა ქალაქში მივდიოდი, არც-კი მინახულა. ეგ, გითხრათ ჩემი გულქვაობის<lb/>
+               ამბავი, სულაც არ შევიმჩნიე მაშინ. ბოლოს კი ბევრი ვინანე. ის-ის იყო, მამა-ჩემი თვალით<lb/>
+               ვეღარა ვნახე: იმავ წელიწადს ამოიჭამა წუთის-სოფელმა, და მე ისე, მშობლისაგან<lb/>
+               შეუნდობარი, უთვისტომოდ, ობლად, მარტოდ დავრჩი ამ ტრიალ ქვეყანაზედა. ამ თვალ-მიუწდომელ<lb/>
+               დედა მიწის ზურგზედ ერთი დათიკო-ღა დამრჩა. მე იმაზედ დავლიე ობოლის გულის<lb/>
+               სიყვარული!..</p>
+            <p>ჩავედით ქალაქში. ჩვენ დაგვაყენეს დიდ ბატონის ნათლიდედასთან. ის იყო ერთი ღარიბი, ქვრივ<lb/>
+               ოხერი, ხნიერი დედაკაცი. ერთი ვაჟიშვილი ჰყოლოდა თურმე და <del type="overstrike"
+                  >ისეც</del>ისიც შეჰშურებოდა<lb/>იმისთვის ბედსა და წაერთმივა საწყლისათვის. ორ-ოთახიანი<lb/>
+               სახლი <pb n="10"/>ჰქონდა მტკვ<add place="above">რ</add>მტკვრის პირას. მე რომ<lb/>
+               მივათვალ-მოვათვალიერე იქაურობა, ვთქვი ჩემს გულში: აქ, მგონი, ჩვენ კუჭს ვერ<lb/>
+               გავიძღობთ-<del type="overstrike">მეტ</del>მეთქი.მერე დათიკოსაც ვუთხარი ეგა, იმან<lb/>
+               გამიცინა და მითხრა: თორმეტი თუმანი უნდა ვაძლიოთ წელიწადში და წლის სამყოფი პური და<lb/>
+               ღვინო, როგორ შეუძლიან მშივრები დაგვყაროსო? მართალი უნდა სთქვას კაცმა, ის დალოცვილი<lb/>
+               ისე გვინახავდა, როგორც საკუთარ შვილებსა. ღმერთმა მშვიდობა მისცეს იმის სულს! </p>
+            <p>დათიკო ყოველ დილით სკოლაში მიდიოდა, სადილად შინ მოვიდოდა, სადილს-უკან წავიდოდა,<lb/>
+               ზარების დარეკვის დროს ისევ შინ დაბრუნდებოდა. საწყალს რაღაცა რუსული ტანისამოსი<lb/>
+               ჩააცვეს. ძალიან ითაკილა პირველში, ასე რომ ერთხელ შემომტირა კიდენაც, მაგრამ, ხომ<lb/>
+               მოგეხსენებათ კაცის ამბავი, — ყველაფერს მალე შეეჩვევა; ისიც შეეჩვი<del
+                  type="overstrike">ე</del>ა.მე ბევრი საქმე არა მქონდა. რაკი დათიკოს სკოლაში<lb/>
+               გავისტუმრებდი და სახლს დავგვიდი, მ<del type="overstrike">ტ</del>თელი დღე ისე<lb/>
+               გულ-ხელ-დაკრებილი ვიჯექი.ხანდისხან იქნება ბაზარში გავეგზავნე დედაბერსა მწვანილის<lb/>
+               სასყიდლად, სხვას ყველაფერს თითონა ჰყიდულობდა. მეც, რაკი ჩემს საქმეს ბოლოს მოვუღებდი,<lb/>
+               ავიღებდი თავს და ქუჩის პირას ქვაზედ ჩამოვჯდებოდი, თვალებს ავაყოლებდი ამვლელს და<lb/>
+               ჩამომვლელს, როგორც მოგეხსენებათ უსაქმო კაცის <pb n="11"/>ამბავი. ჩვენის ქუჩიდამ ერთი<lb/>
+               ვიწრო ქუჩა უბრუნდებოდა, და იქავ ერთი პატარა საყდარი იდგა: იმის დასწვრივ, ჩვენკენ, ამ<lb/>
+               ორ ქუჩის კუთხეში ერთი უშველებელი, დიდი ალაყაფის კარებიანი სომხის სახლი იყო. იქ ხშირად<lb/>
+               მინახავს ერთი მოზრდილი იმერლის ბიჭი; უფრო საღამოს ხნობით გამოდიოდა, დაჯდებოდა კარების<lb/>
+               დირეზედ და სულ რაღაც ხელნაწერსა კითხულობდა. მე ძალიან გამიკვირდა, ვინ ბიჭი-მეთქი, და<lb/>
+               ვინ წიგნის კითხვა!.. მე მაშინ ბრიყვსა, წიგნი მარტო სათავადო ხელობა მეგონა. თურმე, ნუ<lb/>
+               იტყვით, ჩვენისთანა საწყალ კაცის შეფერებაც სცოდნია. ღმერთო მაღალო! სადაც კი შენი<lb/>
+               მადლიანი ხელი ურევია, იქ ყველაფერი საყოველთაო ყოფილა! </p>
+            <p>ერთხელ კვირა-დღე იყო. დათიკო <del type="overstrike">სადა</del> სადღაც წავიდა და<lb/>
+               საღამომდინ შინ არ შემოუხედნია. იმან როგორ <add place="above">ღა</add>ც ორიოდ თთვეს<lb/>
+               შემდეგ ხშირად დაიწყო გარე-გარე სიარული<del type="overstrike">ც</del>და ხანდისხან<lb/>
+               მამლის ყივილამდინაც არ შემოვიდოდა შინ. მგონი, მაშინ იმას სწავლაზედ გული აცრუებულიცა<lb/>
+               ჰქონდა. კვირა დღე იყო, როგორც მოგახსენეთ. მე მაშინ საქმე არა მქონდა-რა, გამოვედი<lb/>
+               ქუჩაში. ჯერ ჩვენ საყდარში წირვა არ გამოსულიყო. გავედი <add place="margin">ჯ ჯ</add><lb/>
+               თუ არა, ის იმერლის ბიჭი წიგნით ხელში იქავ დამხვდა, <pb n="12"/> საცა უწინ ვ(ჰ)ხედავდი<lb/>
+               ხოლმე; მეც აქეთ ქუჩის პირას ქვაზედ <add place="margin">ჯ</add>ჩამოვჯექი და დავუწყე<lb/>
+               ცქერა. ის ბიჭი თვალაუხ<add place="above">ილ</add>ებლივ კითხულობდა; ხან ჩაიცინებდა,<lb/>
+               ხან ისევ <del type="overstrike">და</del> გაუ<del type="overstrike">წ</del>ცინებლივ<lb/>
+               დასცქეროდა მუხლებზედ გადაშლილ ნაწერსა. მე გულმა ვეღარ მომითმინა, მივედი იმასთან და<lb/>
+               გამარჯვება ვუთხარი. იმანაც, რასაკვირველია, სალამი მამცა.</p>
+            <sp>
+               <p>შენი სახელი, ძმობილო?</p>
+            </sp>
+            <p>მკითხა იმან.</p>
+            <sp>
+               <p>გაბრიელ. შენი?</p>
+            </sp>
+            <p>ახლა მე ვკითხე.</p>
+            <sp>
+               <p>გლახუკა.</p>
+            </sp>
+            <sp>
+               <p>სადაური ხარ?</p>
+            </sp>
+            <sp>
+               <p>რაჭველი. შენა?</p>
+            </sp>
+            <p>მეც ვუთხარი, სადაურიცა ვარ.</p>
+            <sp>
+               <p>რაჭველი? მაშ მოჯამაგირედ იდგები? </p>
+            </sp>
+            <p>დავუმატე მე.</p>
+            <sp>
+               <p>დიაღ, სომეხთან ვდგევარ. შენა? </p>
+            </sp>
+            <sp>
+               <p>მე? ბატონის შვილს ვახლავარ.</p>
+            </sp>
+            <sp>
+               <p>აი, ყმაწვილი რომ დაიარება, იმას?.</p>
+            </sp>
+            <sp>
+               <p>იმას.</p>
+            </sp>
+            <sp>
+               <p>დიდი ხანია ქალაქში ხარ?</p>
+            </sp>
+            <sp>
+               <p>კარგა ხანია. შენა?</p>
+            </sp>
+            <sp>
+               <p>
+                  <pb n="13"/>— მე, თუნდა ორი წელიწადია, აქა ვარ.</p>
+            </sp>
+            <sp>
+               <p>— მეც, ერთი წელიწადი იქნება, აქა ვარ და რატომ ადრევ არ მინახვიხარ?</p>
+            </sp>
+            <sp>
+               <p>— აქ არ ვიყავი, ჩემი აღა კარგა ხანი იყო კახეთში და თან ვახლდი. ეხლახან ჩამოვედით,<lb/>
+                  ორი თთვე არ იქნება ჯერ კიდენ.</p>
+            </sp>
+            <sp>
+               <p><add place="margin">that's why</add>— კიდეც იმიტომ. ეგ რა არის? </p>
+            </sp>
+            <p>ვკითხე და დავანახვე წიგნი.</p>
+            <sp>
+               <p>— ზღაპრების წიგნია, ჩემო ძმაო! საქმე არა მაქვს და გულს ამაში ვართობ.</p>
+            </sp>
+            <sp>
+               <p>— აბა თუ ღმერთი გწამს, წაიკითხე, მეც გავიგონო,</p>
+            </sp>
+            <p>ვუთხარი მე ხვეწნითა.</p>
+            <p>დამიჯერა იმ კაი კაცმა და დაიწყო ისეთნაირად კითხვა, რომ, ღმერთო შეგცოდე, შური<lb/>
+               მომერივა. ეგ კიდევ არაფერი: ყური ვუგდე და ის, რასაც კითხულობდ<del type="over"
+                  >ი</del><add place="over">ა</add>თითქო მეცნო, თითქო სადღაც უწინაც გამეგონოს.<lb/> <del
+                     type="overstrike">გაად</del>გადააბრუნა ახლა სხვა გვერდი, ახლა სხვა წაიკითხა, ის კი<lb/>
+               სწორედ ჩვენ სოფელში გამეგონა. არ ვიცი რად, მაგრამ გული კი სიხარულით გადამიტრიალდა.<lb/>
+               „დალახვრა ღმერთმა, — წამოვიძახე <pb n="14"/> უცებ, — ჩვენი გლეხური ზღაპარი აქ სად<lb/>
+               მოსულა?.." დიაღ, ჩვენი მდაბიო ზღაპარი გახლდათ. იმერლის ბიჭმა ჩაიცინა ჩემ<lb/>
+               სიტყვაზედა.</p>
+            <sp>
+               <p>— ეგრეა, ჩემო გაბრიელ!</p>
+            </sp>
+            <p>მითხრა გლახუკამ:</p>
+            <sp>
+               <p>წიგნი იმისთანა რამ არის, რომ თქვენის სოფლის ამბავ(ი)ს ქალაქში ჩამოიტანს,<lb/>
+                  ქალაქისას — სოფელში წაიღებს; საიდგან სად კაცს კაცთან გაალაპარაკებს.</p>
+            </sp>
+            <sp>
+               <p>— მართალი ყოფილა, როგორცა ვხედავ,</p>
+               <p>ვუთხარი მე:</p>
+            </sp>
+            <sp>
+               <p>მაგრამ... ჩვენი ზღაპარი!.. აი, დალახვრა ღმერთმა, წიგნში ჩაწერილა! აბა ერთი კიდევ<lb/>
+                  წაიკითხე.</p>
+            </sp>
+            <p>კიდევაც წამიკითხა იმ დალოცვილის შვილმა. რა გავაგრძელო, იმ წიგნმა თავი შემაყვარა. ისე<lb/>
+               ჩემ სიცოცხლეში არა მინატრია-რა, როგორც ამ დღეს წიგნის კითხვა მე ვინატრე: მშურდა,<lb/>
+               გეტყვით ჩემ გულის სიძუნწეს, რომ ის ისე თამამად კითხულობდა, მე კი ისე უხეიროდ<lb/>
+               დავეხეტებოდი. ბოლოს, გულის წადილს რომ ვეღარ გავუძელ, მივვარდი ზედ გლახუკას და<lb/>
+               დავეღრიჯე:</p>
+            <sp>
+               <p>თუ ღმერთი გრწამს, მოდი, ერთი მადლიანი საქმე ჰქენ და წიგნი მასწავლე. მე ერთი ობოლი
+                  ბიჭი ვარ, თუ მე ვერ გადავიხდი სამაგიეროს, ღმერთი ხომ დიდია!..</p>
+            </sp>
+            <p><pb n="15"/>რას ბძანებთ?.. მაინც ისე უსაქმოდ ვაღამებდი ჩემს დღეს. მე რომ მაშინ წიგნი<lb/>
+               მცოდნოდა და ის <del type="overstrike">ლ</del>ზღაპრები მეკითხნა, ჩემს ბედს ძაღლი<del
+                  type="overstrike">თს</del><add place="above">ც</add> არ დაჰყეფდა. მართლა გულითა<lb/>
+               ხარ მოწადინებული, მკითხა გლახუკამ. რას ამბობ მოწადინებული. ზედ დავაკვდები, შენ ოღონდ<lb/>
+               ეგ სამადლი საქმე მიყავ, ვუპასუხე გიჟსავით. მაშ თუ აგრეა, ადვილია. ვაცხონე<lb/>
+               მამა-შენი!.. შევყვირე გახარებულმა, მადლიანი ბიჭი ყოფილხარ. ნუ გგონია, რომ მე<lb/>
+               გასწავლი. მე არ დაგზარდებოდი, მაგრამ ხომ იცი, ძმაო, <del type="overstrike"
+                  >მა</del>მოცლა არა მაქვს, მე კაი ოსტატს გიშოვნი. ფერი მეცვალა, ეს რომ მითხრა. როგორც<lb/>
+               თავმოწონებული ფარშავანგი <del type="overstrike">ჰ</del>ჰხარობს მინამ თავის შავ ფეხებს<lb/>
+               დაინახავს, <del type="overstrike">როგორც</del> როცა კი ძირს დაიხედავს და თვალს<lb/>
+               მოჰკრავს, მაშინვე ფრთებს დაღონებული ჩამოჰყრის, ისე ამ სიტყვაზედ ჩემმა ჯერ<lb/>
+               წახალისებულმა გულმა ჩამო<del type="overstrike">ს</del><add place="above">ჰ</add><del
+                  type="overstrike">ყ</del>არაფრთები. ეჰ, ძმობილო! ვუთხარ გულნატკენად შენშიაც<lb/>
+               მოვსტყუვდი. ოსტატს კაი გაძღოლაც უნდა, მე ცალი ფული არა მაქვს თვალზე მივიკრა. ვხედამ,<lb/>
+               რომ ტყუ<del type="overstrike">ვ</del>ილ უბრალოდ წახალისდა ჩემი წადილი. იმან გამიცინა<lb/>
+               და მითხრა: აჩქარებული კაცი ჰყოფილხარ, თოფის წამალსავით ჰფეთქავ. განა მე არ ვიცი, შე<lb/>
+               კაი <pb n="16"/>კაცო, რომ მე და შენისთანა კაცს საოსტატო ფული <del type="overstrike"
+                  >აქ</del><lb/> არ ექნება? მე იმისთანა ოსტატს გიშოვნი, რომ უფულოდ გასწავლოს. </p>
+            <sp>
+               <p>გულს მირბილებ განა? </p>
+            </sp>
+            <p>ვკითხე უჯერობით.</p>
+            <sp>
+               <p>დამიჯერე, მართალს გეუბნები. </p>
+            </sp>
+            <sp>
+               <p>მართალს?! </p>
+            </sp>
+            <sp>
+               <p>ჰო, ისეთი კაცი გიშოვნო, ძმასავით მოგეხმაროს.</p>
+            </sp>
+            <sp>
+               <p>ბიჭოს!.. მაშ ღვთის კაცი ყოფილა!..</p>
+            </sp>
+            <sp>
+               <p>— არა, — დამაცა: როგორ თუ ღვთის მსახურია, სამღვდელოა?</p>
+            </sp>
+            <p>სწორედ. შენ ხომ ამბობ — ფულიო, ფული კი არა, სანთლით ეძებს შენისთანა მოწადინესა, რომ<lb/>
+               წიგნი ასწავლოს. ვისაც არ უნდა, იმდენს ეჩიჩინება, იმდენს ეჩიჩინება, რომ ძალად<lb/>
+               ანდომებს. მეც ისე მნახა ერთხელ აქ ქუჩაში. დაილოცა ის დღე, ჩემთვის კაი დღე იყო...<lb/>
+               დამიწყო დალოცვილმა ლაპარაკი: სადაური ხარო, <note place="above">2</note> რას <note
+                  place="above">1</note> აქ აკეთებო? მეც ყოველისფერი მოვახსენე. რა გავაგრძელო! ისე<lb/>
+               მოინადირა ჩემი გული ტკბილის სიტყვით, ისე შემიჩვია, რომ, ბოლოს, წიგნის სწავლებაც<lb/>
+               დამიწყო. რა მე?.. ათიოდ პატარა ბიჭები, ამ ჩვენს <pb n="17"/> უბანში მოგროვილები,<lb/>
+               იმასთან დადიან და სწავლობენ. როგორც შენ, ისე იმან იმათგან გროში არ იცის. მე ერთხელ,<lb/>
+               ჯამაგირი რომ ავიღე, მინდოდა მიმერთმივა ორი მანეთი იმ დალოცვილისათვის, მაგრამ, თუმცა<lb/>
+               არ გამიწყრა, მიწყინა კი.</p>
+            <sp>
+               <p>მამა გყავს? </p>
+            </sp>
+            <p>მკითხა მე.</p>
+            <sp>
+               <p>არა, შენი ჭირიმე! </p>
+            </sp>
+            <sp>
+               <p>დედა? </p>
+            </sp>
+            <sp>
+               <p>გახლავთ.</p>
+            </sp>
+            <sp>
+               <p>ვინ ინახავს? </p>
+            </sp>
+            <sp>
+               <p>მე, შენი ჭირიმე! ჩემს მეტი არავინა ჰყავს. </p>
+            </sp>
+            <sp>
+               <p>მაშ ეგ ფული დედა-შენს შეუნახე, </p>
+            </sp>
+            <p>მიბძანა თავისებურად გულთბილად, </p>
+            <sp>
+               <p>შენ რა გაქვს, მე რა უნდა მამცე? </p>
+            </sp>
+            <p>დედა-ჩემს თავისი წილი გავუგზავნე და ეს გადავანარჩუნე, რომ თქვენ ლოცვაში მომიხსენიოთ.<lb/>
+               ლოცვა არც ფულზედ და არც ფულით არ იყიდება. საყდრის და ღვთის სადიდებლად მაინც მიიღეთ,<lb/>
+               შენი ჭირიმე! ღმერთი, ჩემო ძმაო, მარტო კარგის საქმით იდიდება და არა ფულითა. მიწყრებით,<lb/>
+               შენი ჭირიმე! არა, მე მართალს გეუბნები. მაშ რა ვქნა, მიბძანე? შენთვის შეინახე: თუ<lb/>
+               მეტია შენთვის, იმას მიეც<del type="overstrike">ე</del><add place="above">ი</add>,<lb/>
+               ვინც მე და შენზედ უფრო ღარიბია, მაგას უფრო მოგ<del type="overstrike">ე</del><add
+                  place="above">ი</add>წონებს ღმერთი. აგერ, ამ თქვენის ქუჩის ბოლოს,<pb n="18"/> ერთი<lb/>
+               ღარიბი სახლობა არის,<del type="overstrike">თ</del> პურის შოვნის ილაჯი არა აქვთ, მე და<lb/>
+               შენ კი ყოველ-დღე მაძღრები ვართ... ეს ისეთნაირად მითხრა, რომ არ დაიჯერებ, მაშინვე<lb/>
+               გამოვტრიალდი, ვიპოვე ის სახლობა და იმისთვის გადადებული ორი მანეთი იმათ <del
+                  type="overstrike">ვ</del><lb/>
+               <add place="above">მი</add>ივართვი. აი, რა მადლიანი კაცია!.. ნეტა თითონ ჰქონდეს რამე<lb/>
+               მაინცა! ღვთის განაჩენი არა აბადია-რა, დღე-დღეურად ძლივ<del
+                  type="overstrike">ად</del><add place="above">ა</add> სცხოვრობს.</p>
+            <p>establish დაარსება, დამტკიცება, დამყარება, დაფუძნება </p>
+         </div>
+         <div>
+            <head>რუსული <del type="overstrike">გამოცდა</del>
+               <add place="above"><del type="overstrike">გამოცდილება</del></add> <add place="above">(experiment)</add> ლიბერალურ მმართველობაში<lb/>
+               (ერთი კორრესპონდენტიდგან)
+            </head>
+            <p rend="align(left)"><date when="--11-16">გიორგობისთვე 16</date></p>
+            <p>
+               დღეს საქართველოში ყველაზედ უფრო <del type="overstrike">თავ</del>გამოჩენილ <del type="overstrike">კაცად</del><add place="above"> პირად</add><lb/>
+               უეჭველოდ <del type="overstrike">არის</del><add place="above"> ითვლება</add>ქუთაისის გუბერნატორი ბ. სტაროსელსკი,<lb/> 
+               რომელმაც ეს არის ეხლა <del type="overstrike">მოადგილეს  გა</del> გრაფს ვორონცოვ-<lb/> 
+               დაშქოვს გააუქმებინა მაზრაში სამხედრო წესებ<del type="overstrike">ს</del><add place="above">ი</add>, რომელიც<lb/>
+                  მხოლოდ სამი დღე არსებობდა. ბ. სტაროსელსკი, <del type="overstrike">რომელიც,</del><lb/>
+               <del type="overstrike">სხვის ყველისაებრ, ვერ დაიძვრა ადგილიდამ როდესაც დაიწყო</del><lb/>
+               <add place="above"> რადგანაც საყოველთაო იყო</add>   <lb/>
+               <del type="overstrike">დიდი</del> გაფიცვა<add place="above"> ამიტომ სტ. ვერ</add> მოასწრო <add place="above"> თავის დროზე გურიაში წასვლა და მხოლოდ</add>პარასკევს, გასულ კვირას, <del type="overstrike">წასვლა</del><add place="below"> გავიდა</add><lb/>
+               ქუთაისიდგან <del type="overstrike">გურიაში.</del> გურია <del type="overstrike">წარსულში</del> <add place="above">წინათ</add> თავისუფალი<lb/>
+               სათავადო <add place="above"> იყო და ეხლა შეადგენს მთელ </add><del type="overstrike">ეხლანდელი ოზურგეთის</del> მაზრას <del type="overstrike">თითქმის იგივე</del><lb/>
+               <del type="overstrike">არის.</del> სამი <del type="overstrike">წლის</del> <add place="above"> წელიწად</add> ნახევარია <add place="above">რაც </add><lb/>
+               გურ<del type="overstrike">იე</del><add place="above">უ</add>ლები <del type="overstrike">ცხადად ბრძოლებიან</del><lb/>
+               რუსის მთავრობას ცხადი <del type="overstrike">წინააღმდეგნი არიან</del> <add place="above">ომი გამოუცხადეს</add>. მათი <del type="overstrike">ჩხუბი</del> <add place="above">წინააღმდეგობა</add><lb/>
+               პირველში <del type="overstrike">დაწყებული იყო</del> <add place="above">დაიწყეს</add> მებატონებთან <del type="overstrike">მაგრამ მთავრობის</del> <add place="above">და მიზეზი ამისი იყო აგრარული კითხვა </add><lb/>
+               შემდეგ ზედ დაერთო პოლიტიკური მხარეც. <add place="above">და გამოუცხადებია ბოიკოტი</add> მთავრობა ცდილობდა სასტიკი<lb/>
+               <del type="overstrike">გაჭიმვა გააუქმებინეს მათგან დაარსებული ბოიკოტის,</del><lb/>
+               ზომებით მოესპო ბოიკოტი. ამ დროს                       <del type="overstrike">ჯგუ</del> პროპაგანდისტებმა ისარგებლეს<lb/>
+               და ეს ბრძოლა დაამყარეს მკვიდრ პოლიტიკურ ნიადაგზე<lb/>
+               <del type="overstrike">ისარგებლა</del> სოციალ-დემოკრატიული <del type="overstrike">მხარემ, რომელიც</del><lb/>
+               <del type="overstrike">მეტად ძლიერი არის დასავლეთ საქართველოში, და</del><lb/>
+               <del type="overstrike">ამ ნაირად ბრძოლამ მიიღო პოლიტიკური ელფერი.</del><lb/>
+               რომელთა პარტია დასავლეთ საქართველოში საყოფად ძლიერია.
+            </p>
+            <p><pb n="20"/>
+               ამ გაზაფხულში <add place="above">ადგილობრივმა</add> მთავრობამ გადასწყვიტა <del type="overstrike">სარ</del> მიეღო<lb/> 
+               სასტიკი ზომები ამ <del type="overstrike">მოუსვენარი</del><add place="above">აჯანყებული</add> ხალხის დასამშვიდებლად<lb/>.
+               ამ მოვალეობის ასრულება გენერალ ალიხანოვს<lb/>
+               მოანდეს რომელიც დიდი ჯარით გურიისაკენ გეემგზავრა მაღამას,<lb/>
+               ქართველი წრის წარმომადგენელნი სთხოვდნენ <del type="overstrike">რომ არ</del><lb/>
+               <add place="above">რომელსაც მაშინ კავკასიის მართველის ადგილი ეჭირა</add><lb/>
+               რომ მიეღო სასტიკი ზომები და საქმის გამოსარკვევად<lb/>
+               გაეგზავნა რომელიმე პირი. აირჩიეს სულთან კრიმ<lb/>
+               გირეი რომელიც ეხლა თანაშემწეა ვორონცოვ-დაშკოვისა.<lb/>
+               იგი წავიდა გურიაში.სულთან კრიმ გირეის მოხსენებიდგან<lb/>
+               სჩანს რომ გურულებს <add place="above">საერთოთ მთავრობა არა სწამთ და არც მოხელეები</add>  პოლიტიკურ მოძრაობაში საკვირველი<lb/>
+               ნიჭი გამოიჩინეს, აგრეთვე თვით მართველობის შესახებ<lb/>
+               იშვიათი ტაქტიკა და ბევრნაირად სამაგალიოთონი შეიქმნენ<lb/>
+               რუსეთის ერისთვის. ამის შემდეგ დროებით თავი დაანებეს<lb/>
+               გურიას. ამ ზაფხულს გრაფ ვ. დაშკოვის მიერ დანიშნული იყო<lb/>
+               გუბერნატორი სტაროსელსკი, რომელიც მცოდნე აგრონომია,<lb/>
+               იმ იმედით რომ ეცდებოდა იყო ექონია გავლენა გურულები<lb/>
+               ზედ გარდაეხდინებინა ხარჯი და ისევ დაებრუნებინა <lb/>
+               მოხელეები. სტაროსელსკი გადაჭარბებული ლიბერალია<lb/> 
+               მას რევოლუციონერად სთვლიან, ვორონცოვ-დაშქოვის<lb/> 
+               ყურადღება დაიმსახურა უფრო იმითი რომ საყოფად<lb/>
+               <pb n="21"/>            
+               იცნობს ყვეყანას, <del type="overstrike">ფართო</del> ხალხს უყვარს იგი და მისი<lb/>
+               კაცობრივი დამოკიდე<add place="above">ბ</add> ულება და ფართო ჭკუა უფრო შესანიშნავია<lb/>
+               ვიდრე მისი კეთილი და მოწყალე შემატკივარი გული<lb/>
+               გურულების შესახებ. სტაროსელკიც დაასთანხმდა <add place="above">მიეღო</add>  გუბერნატორის<lb/>
+               ადგილი იმ პირობით რომ იმის წესები მოეხსნა და მას<lb/>
+               შესძლებოდა თავისუფლად მოქმედება. <del type="overstrike">მთა</del> ნამესტიკმა<lb/>
+               დიდი ზნეობრივი ძალა გამოიჩინა <del type="overstrike">რომ</del> <add place="above">და</add>  დასთანხმდა ამ<lb/>
+               პირობას. 14 მარიამობისთვეში ახალი გუბერნატორი<lb/>
+               მივიდა ქუთაისში და ეს სამი თვეა რაც ამ თანამდებობას<lb/>
+               ასრულებს და იმის მოქმედების მიუხედავად გურულებმა<lb/>
+               მაინც უარი გამოუცხადეს გარდასახადზე და მოხელეების<lb/>
+               მიღებაზე. ეს იყო მიზეზი რომ ვორონცოვ-დაშქოვს<lb/>
+               და მეორედ გამოუცხადებინა სამხედრო წესები რადგანაც<lb/>
+               იმის აზრით სტაროსელსკის მოქმედება უნაყოფო იყო<lb/>
+               <del type="overstrike">გურულების და ყაზაყ</del><add place="above">ხ</add> ების შორის შეტაკებამ 29 ღვინობისთვეს<lb/>
+               და შემდეგში გაამართლა ეს გარდაწყვეტილება და<lb/>
+               ღვინობისთვის 30(14) მანიფესტის გამოცხადების შემდეგ<lb/>
+               კიდევ გამოაცხადა სამხედრო წესები ქუთაისში. მოახსენეს<lb/>
+               <del type="overstrike">რ</del> ნამესტნიკს რომ მანიფესტის შემდეგ <del type="overstrike">მდგომა</del> დგმოიარ-<lb/>
+               ება შეიცვალა; ს<del type="overstrike">წ</del><add place="above">ტ</add> აროსელკიმაც მოახსენა რომ გურულებმა<lb/>
+               <pb n="22"/>
+               შესწყვიტეს წინააღმდეგობა ყაზა<del type="overstrike">ყ</del><add place="above">ხ</add> ებთან მაშინ<del type="overstrike">მე</del>ვე როგორც<lb/>
+               გაიგეს მანიფესტის გამოცხადება, გამოაცხადეს თანხმობა<lb/>
+               ხარჯის გადახდაზე და ჯარის მიცემაზე -  ძალმომრეობით<lb/>
+               კი არა როგორც ყმები არამედ როგორც თავისუფალი<lb/>
+               მოქალაქენი თავისუფალ ქვეყანაში. მაშ. გ. ვორონცოვ-<lb/>
+               დაშქოვმა ახსნა სამხედრო წესები რისთვის ქების<lb/>
+               ღირსია რადგან <add place="above">კელი</add>  კახეთიდგან მოსული დეპუტატების<lb/>
+               მუქარას საერთო აჯანყებაზე შეიძლება ცუდი<lb/>
+               შედეგი მოჰყოლოდა. ეჭვი<lb/>
+               არ არის <add place="above">რომ</add>  უამი<del type="overstrike">თი</del><add place="above">სოთ</add>  ბევრი სისხლის<lb/>
+               ღვრა იქნებოდა და მისი გარდაწყვეტილება გონივრულია<lb/>
+               და ყოჩაღი. ეჭვი არ არის რომ რეაქციონერები<lb/>
+               პეტ. მას გაჰკიცხამენ ამ საქციელისთვის და აქ<lb/>
+               ტფილისში ამ საქციელს ახსნიან მისი სისუსტით<lb/>
+               მაგრამ იმის ადგილას ძნელად რომ სხვანაირად რასაკვირველია<lb/>
+               მოქცეული იყო ვინმე. ბ. სტაროსელსკი რომელიც ძალიან<lb/>
+               კმაყოფილია მისს მის ცდას კარგი შედეგი მოჰყვა<lb/>
+               მითხრა, დღეს წასვლის წინეთ ქუთაისში, რომ<lb/>
+               მომავალ კვირას აპირებს გამოცხადებას<lb/>
+               ჯარის გამოწვევის შესახებ და იმედი აქვს<lb/>
+               გურულებიც დასთანხმდებიან.
+            </p>
+            <pb n="23"/>
+            <p>ბატონო რედაქტორო,</p>
+            <p>გაზეთ Times ში ( 9 ქრისტ<del type="overstrike">ეს</del><add place="above">ი</add>  შობის თვის ნომერში)<lb/>
+               დაბეჭდილი იყო <del type="overstrike">ბარ</del> კორ<del type="overstrike">რ</del>ესპონენცია გურულების<lb/>
+               შესახებ. გადავთარგმნეთ ერთად მე და ოლგა მირზაშვილმა<lb/>
+               და თუ თქვენთვის ეს საინტერესოა გიგზავნით<lb/>
+               ამ გადათარგმნილს კორრესპონდენეციას<lb/>
+               თქ
+            </p>
+            <p><title>გლახის ნაამბობი</title></p>
+            <pb n="24"/>
+            <p>მაგრამ სულ ტყუილი ყოფილა, კაცს რაკი ღვთის მადლი <lb/>
+               ჩაისახება გულში, მდიდარია თუ ღარიბი მაინც მადლის გზაზედ<lb/>
+               წავა. მაგ კაცის ამბავი რომ გიამბო, არ დაიჯერებ, იმისთანა<lb/>
+               რამ არის. საცა კი სიკეთეა ამ უბანში, იმისი მადლიანი ხელიც<lb/>
+               იქ ურევია. დაილოცა ღვთის სამართალი, რომ მე და შენისთანა<lb/>
+               თავმინებებულ კაცს მაგისთანა პატრონს გაუჩენს ხოლმე. მე<lb/>
+               თუ კაცი ვარ ეს იმისი უნარია ღმერთმა გადაუხადოს. ტყუილად<lb/>
+               კი არ არის ნათქვამი: ჩვენისთანა კაცის ვალისა ღმერთი<del type="overstrike">ს</del>ა<lb/>
+               მზღველიო. აგერ თითონაც გამობძანდა, დაატანა გლახუკამ<del type="overstrike">ა</del><lb/>
+               და მიმახედა საყდრისაკენ. წირვა გამოსულიყო, თეთრ ჩადრიანი<lb/>
+               დედაკაცები თეთრად მოედნენ ქუჩასა; კაცები კი როგორც<lb/>
+               მოგეხსენება ჩვენი ადათი, ჯგუფად შეგროვდნენ საყდრის<lb/>
+               დერეფნის წინ და დაიწყეს თავისებურად ყაყანი. იმათში<lb/>
+               შეერია ერთი მაღალტანიანი, ახალგაზრდა <add place="above">იმ</add> მღვდელი. ის არის,<lb/>
+               ვკითხე გლახუკას, თვალი კი  მღვდლისაკენ დამრჩა. აბა, ის არის,<lb/>
+               ძმაო, წამო, კურთხევა ვსთხოვოთ. პასუხის თქმა აღარ დამაცალა,<lb/>
+               წამოდგა და წავიდა საყდრისაკენ. მეც თან ავედევნე, მივედით.<lb/>
+               ის მღვდელი შუა<del type="overstrike">დ</del>ში იდგა, <del type="overstrike">ღ</del> ხალხი <del type="overstrike">ზ</del> ბუზსავით ირეოდა 
+               <pb n="25"/>
+               იმის გარშემო. თითონ ზოგს ელაპარაკებოდა, ზოგი<del type="overstrike">თს</del><add place="above">ც</add> დაუზარებლად<lb/>
+               პასუხს აძლევდა; ზოგი გაეხუმრე<del type="overstrike">დ</del>ბოდა და ზოგს თითონაც გაუხუმრებდა<lb/>
+               და მაშინ უნდა გენახათ გულიანი ხარხარი ერისა. ზოგი კიდევ<lb/>
+               სულგან<del type="overstrike">ე</del><add place="above">ა</add>ბული შესქც<add place="inline">ცქ</add>ეროდა, თითქო დაჯერებულიაო იმის<lb/>
+               პირიდამ ოქრო გადმოვარდება და შიშობს ხელიდამ არ წამივიდესო.<lb/>
+               ბევრი სიკეთე უნდა დაეთესოს კაცსა, რომელსაც ეგრე სიყვარულით<lb/>
+               გარს არტყია ხალხი. კაცი ის არის და ქუდიც იმას<lb/>
+               ახურავს. ალბად კაი კაცსაც თაფლ<add place="above">ი</add><del type="overstrike">საც ამწი</del> აცხია რომ დიდი<lb/>
+               და პატარა ბუზსავით ზედ ეხვევა. დედა-მიწის ზურგს ბევრი<lb/>
+               არ უტარებია იმისთანა.</p>
+            <p>	სწორედ კაცს რომ წყალი მოსწყურდება, ისე მომწყურდა<lb/>
+               იმის სიტყვების გაგება. გადავიხარე თავი რომ დამენახა და გამეგო<lb/>
+               რამე. წინ<del type="overstrike">ეთ</del> იდგა ერთი პატარა ბიჭი თავჩაღუნული.<lb/>
+               ყველა ყველა და შენ რატომ აღარ ჩემთან დადიხარ? უბძანა მღვდელმა<lb/>
+               მოგწყინდა განა შენ ცუღლუტო წიგნის კითხვა. მე რა ვიცი<lb/>
+               უთხრა ბიჭმა, მამა ჩემი არ მიშვებს. მღვდელი თითქო შეკრთაო<lb/>
+               ისე <del type="overstrike">უე</del>ეწყინა ეს პასუხი. რატომ არ გიშვებს. გეეყოფა რაც<lb/>
+               ისწავლეო მეუბნება. აქ ხომ არ არის მამა შენი. აი იქითა<lb/>
+               ზის. აბა აქ დაუძახე. პატარა ბიჭი <del type="overstrike">ხ</del> წიბრუტივით<lb/>
+               მოტრიალდა და გაიქცა მამას <del type="overstrike">გ</del><add place="above">დ</add>ასაძახებლად. ვერ უყურებთ<lb/>
+               <pb n="26"/>
+               პეტრეს, სთქვა თავის თავად მღვდელმა და ჩა<del type="overstrike">ჰ</del>ფიქრდა. ეგ არის და<lb/>
+               დაიძახა ვიღაცა, ავი ძაღლი არც თითონა სჭამს, არც სხვას <del type="overstrike">არ</del> <lb/>
+               აჭმევსო. ხალხმა გაიცინა მღვდელსაც ღიმილი მოერევა მაგრამ<lb/>
+               მარდად შეიკავა სიცილი. მამას არ უსწავლია და პაპას, შვილს<lb/>
+               რად <del type="overstrike">არ</del> ასწავლის, სთქვა მეორემ. შეჩვეული ჭირი ურჩევნია<lb/>
+               მაგისთანა თავხედს შეუჩვევარ ლხინსა. გონიერსა მწვრთნელი<lb/>
+               უყვარს, უგუნურსა გულსა გმირდესო მაგისთანა კაცზე<lb/>
+               არის ნათქვამი, წამოიძახა მესამე. იქნება კიდევ ბევრი<lb/>
+               ელაზღანდარათ რომ პეტრე თითონ არ მოსწრებოდათ.<lb/>
+               კაცო უბძანა მღვდელმა მართალია შენ შვილს შენ<lb/>
+               უშლი<del type="overstrike">ს</del> სწავლასა? მართალი გახლავთ, რა მაგის საქმეა.<lb/>
+               არა შეჯდა მწ<add place="above">ყ</add>ერი ხესა, არა იყო გვარი მისი, შენი ჭირიმე.<lb/>
+               უპასუხა თამამად პეტრემ. როგორ თუ არა იყო გვარი მისი.<lb/>
+               ესე, შენი ჭირიმე, ჩვენ<del type="overstrike">ს</del> გლეხკაცებს გვეძახიან. დღე და<lb/>
+               ღამ ოფლი უნდა ვიწუროთ და პურ<del type="overstrike">ე</del>ი ისე ვჭამოთ.<lb/>
+               ღმერთს ეგრე უბძანებია, ოფლით თქვენითა მოიპოვეთ <lb/>
+               პური თქვენიო. ეს ღვთის ბძანება მარტო <add place="above">ჩვენ</add> დაგვა<del type="overstrike">ც</del><add place="above">წვ</add>ა კისერზედ <lb/>
+               და ვეწევით კიდეც. წიგნი რა ჩვენი საქმეა. ის ჩვენ<lb/>
+               დამშეულ კუჭს ვერ გაგვიძღობს. ჩვენი წიგნი დედა მიწაა, <lb/>
+               <del type="overstrike">გ</del><add place="above">ვ</add>ენაცვალე იმის მადლს. როცა დედამიწას მწვანე <lb/>
+               <pb n="27"/>
+               ხავერდსავით ჯეჯილ<add place="above">ი</add>ს ყდა გადაეკვრება, მაშინ <del type="overstrike">ვე</del> იმაზედა<lb/>
+               ვკითხულობთ ჩვენს ბედსაც. ჩვენი კალამი დაუღალავი<lb/>
+               გუთანი, მელანი კიდევ გულ ღვიძლიდამ გამოწურული<lb/>
+               ჩვენი ოფლია. ამოვაწებებთ ოფლში გუთანსა გადვუხსნით<lb/>
+               ხოლმე დედა მიწას მადლიან გულსა, ჩავყრით შიგ თესლსა<lb/>
+               როცა დრო მოვა მივალთ და ის დალოცვილი მიწა თავის<lb/>
+               დღეში არ დაიღლება, ისე არ გაძუნწდება რომ მიბარებული<lb/>
+               ერთი ორად არ დაგვიბრუნოს. ტყუილად არ ეძახიან<lb/>
+               მიწას დედაო, ის გვაწოვებს ჩვენ ძუძუსა, იმას დავხარით<lb/>
+               დღე და ღამ. ჩვენი ლხინიც და ჭირიც ის არის შენი<lb/>
+               კვნესამე. წიგნი კარგია, ვინ არ <del type="overstrike">არ</del> იცის. ბევრიც სხვა <del type="overstrike">კ</del> <lb/>
+               რამეა კარგი <del type="overstrike">ა</del> ამ ყვეყანაზედ, მაგრამ ჩვენ<del type="overstrike">ი</del> იქამდინ ხელი <lb/>
+               არ მიგვიწვდება. გაგიბედავთ შენი ჭირიმე და გეტყვით, ჯერ <lb/>
+               კუჭი უნდა გავიძღოთ - კუჭი ჩვენი თავდაპირველი გულის <lb/>
+               ტკივილი ეს არის.</p>
+            <p>p. 33</p>
+            <p>მართალს ამბობს, მე და ჩემმა ღმერთმა,  გაიხმაურა ხალხმა, რომელიც <lb/>
+               წუთის წინად ისე დავ-ხედად დასცინოდა პეტრეს.</p>
+            <sp>
+               <p>— რას ბძანებთ?..  წამოიძახა ხალხის ხმით გულგაკეთებულ-<lb/>
+                  მა პეტრემ: წელში ვერ გავსწორებულვართ, პირუტყვსავით მაღლა<lb/>
+                  
+                  <pb n="28"/>
+                  ვერ აგვიხედნია, სულ დედამიწას დავყურებთ, თითქო ჩვენი ბედი <lb/>
+                  იქ დაკარგულა და ვეძებთო, ვინ ჩვენ და ვინ წიგნი!..</p>
+            </sp>
+            <sp>
+               <p>მე მესმის, ჭკვიანო პეტრევ, შენი გულის ვითარება, <lb/>
+                  უბძანა დაღონებით მღვდელმა: მე მოზიარე ვარ შენის გულის <lb/>
+                  ტკივილისა! შენ გუთანი გირჩევნია წიგნსა, იმიტომ რომ შენ გუთანი <lb/>
+                  დღეს პურს გაჭმევს.</p>
+            </sp>
+            <sp>
+               <p>მართალი ბძანებაა, შენი ჭირიმე, მიუგო პეტრემ.</p>
+            </sp>
+            <sp>
+               <p>ეხლა შენ ერთი ეს მითხარ: რომ არ გცოდნო<del type="overstrike">ბ</del><add place="inline">დ</add>ა, რომ ცეცხლში <lb/>
+                  რკინა რბილდება, საიდამ გააკეთებდი ბარ-საკვეთს, ცულსა,<lb/>
+                  ეჩოსა, რომლითაც გუთნის ხესა სთლი? რომ არ გცოდნოდა <lb/>
+                  რომ აგრე უნდა გამოყვანა გუთანსა, რით მოხნავდი მიწასა? <lb/>
+                  რომ არ გცოდნოდა, რომელ მიწას როგორ უნდა მოხვნა — ღრმად<lb/>
+                  ჩაშვება ბარსაკვეთისა, თუ თხლად, — რა გეშველებოდი?</p>
+            </sp>
+            <sp>
+               <p>შენი მტერი იქნებოდა, მე ვიქნებოდი.</p>
+            </sp>
+            <sp>
+               <p>საიდამ იცი ეს ყველაფერი?</p>
+            </sp>
+            <sp>
+               <p>როგორ თუ საიდამ?.. მამა-პაპით, შენი ჭირიმე! მადლობა <lb/>
+                  ღმერთსა, თვალი მქონია — მინახავს, ყური მქონია — მსმენია.<lb/>
+                  გულისყური მქონია — მივხვედრილვარ, ხსოვნა მქონია, <lb/>
+                  გონებაში ჩამრჩენია.</p>
+            </sp>
+            <sp>
+               <p><del type="overstrike">პეტრე</del> რაც გინახავს, გსმენია, მიხვედრილხარ, გონებაში <lb/>
+                  <pb n="29"/>
+                  ჩაგრჩენია, — ამას სულ ერთიანად რას ეძახი?</p>
+            </sp>
+            <p>პეტრე ჯერ ჩაფიქრდა, თითქო არ იცის რა სთქვასო, მერე <lb/>
+               კი ისე ჭოჭმანობით წამოიძახა.</p>
+            <sp>
+               <p>რა ვიცი, შენი ჭირიმე, რას ვეძახი.</p>
+            </sp>
+            <sp>
+               <p>მაინც?</p>
+            </sp>
+            <sp>
+               <p>ჩემ გამოცდილებას, ჭირნახულობას, ჩემ ცოდნასა, შენი ჭირიმე.</p>
+            </sp>
+            <sp>
+               <p>კუჭს გიძღობს ეგ შენი ცოდნა?</p>
+            </sp>
+            <sp>
+               <p>მაგას რაღ<del type="overstrike">თ</del><add place="above">ა</add> პასუხი უნდა, შენი კვნესამე. თითონ თქვენ<lb/>
+                  კარგად იცი, რომ უმაგისოდ წყალში გადასაგდები ვიქნებოდი.</p>
+            </sp>
+            <sp>
+               <p>ეხლა ერთი ეს მითხარ კიდევ: რამდენი შენზედ უფრო<lb/>
+                  მცოდნე კაცია ქვეყანაზედ?</p>
+            </sp>
+            <sp>
+               <p>რა ვიცი, შე დალოცვილო, <lb/>
+                  მგონი, თავზედ იმოდენ<del type="overstrike">ა</del><add place="inline">ი</add> ბალანიც არა მქონდეს: მჯობს<lb/>
+                  მჯობი არ დაელევა. იმ მცოდნე კაცების ჭირნახულობა,<lb/>
+                  გამოცდილება, ცოდნა რომ შენსას ზედ დაემატოს კარგი არ <lb/>
+                  იქნება? უფრო ადვილად არ გაიძღობთ კუჭს, უფრო <lb/>
+                  ცოტა ოფლით <add place="above">ბევრს</add> არ მოიმკი? ღვთის წყალობა გქონდეთ <lb/>
+                  რომ კარგი ის იქნება მაგრამ ხატაბალა ეს არის თვალი <lb/>
+                  იმათამდინ არ მიმიწ<del type="overstrike">ყ</del>ვდება და ყური. საიდამ სადაო, წმინდაო<lb/>
+                  საბაო. ამოდენა დედამიწის 
+                  ზურგზედ სად <del type="overstrike">მე</del> ვეძებო <add place="above">მე</add> <del type="overstrike">იმისი</del><add place="above">ისინი</add>,<lb/>
+                  რომ გამოვკითხ<del type="overstrike">ე</del><add place="above">ო</add> რამე.მე რომ გაჩვენო იმისთანა რამე<lb/>
+                  <pb n="30"/>
+                  რომ მთელის ქვეყნის ოსტატო<del type="overstrike">დ</del><add place="inline">ბ</add>ა, ჭკვიან კაცების ნა<del type="overstrike">წ</del><add place="above">ც</add>ადი,<lb/>
+                  ცოდნა თუ მოინდომებ სულ მუდამ ხელთა გქონდეს,<lb/>
+                  ერთი სიტყვით, რომელ<del type="overstrike">იც</del> ჭკვიან კაცთან გინდა, შორიდამვე <lb/>
+                  გაგალაპარაკო, რას იტყვი? იმას ვიტყვი, რასაცა<lb/>
+                  მთელი ქვეყანა ამბობს, ეს ხომ მისნობა იქნება.<lb/>
+                  აბა მაგისთანა მისანია წიგნი. მე რომ ეს <lb/>
+                  გა<del type="overstrike">მ</del><add place="above">ვ</add>იგონე, <del type="overstrike">სწოლ</del> სწორედ მოგახსენოთ თავიდამ ფეხ<add place="above">ებ</add>ამდინ<lb/>
+                  ჟრჟოლამ გამიარა. არ ვიცი კი რად, ეს კი ვიცი, რომ<lb/>
+                  ჩემ გარდა სხვასაც ეგ დაემართა. ხალხს, თითქო<lb/>
+                  მზემ დაჰკრა სახე გაუნათლდა. პეტრე კი ისე სახტად<lb/>
+                  თვალებ და<del type="overstrike">ჩ</del><del type="overstrike">რ</del> ჭყეტილი დარჩა, თითქო თავბრუ დაესხაო<lb/>
+                  ისე ატაცებულსავით დიდხანს იქნებოდა <del type="overstrike">როდესაც</del> <lb/>
+                  რომ მღვდლის სიტყვებს არ გამოეფხიზლებინათ.<lb/>
+                  ეხლა რა სიტყვი წიგნი გიშველის რასმეს თუ არ?<lb/>
+                  ნება მომეცი უთხრა გულამომჯდარმა პეტრემ ეგ<lb/>
+                  მუხლები გადაგიკოცნო. ჩემი ტუჩები ბევრჯელ<lb/>
+                  მიჰკარებია სხვის მუხლსა და შენისთანასკი არც <lb/>
+                  ერთხელ. მღვდელმა არ მიუშვა მუხლ<add place="above">ებ</add>ამდინ, მაშინ პეტრემ <lb/>
+                  პირნათლად შეხედა და გონება გახარებულმა წამოიძახა:<lb/>
+                  დაილოცა შენის ენის პირწყლიანობა. ღმერთი მაღლიდამ <lb/>
+                  <pb n="31"/>
+                  გიყურებს, <del type="overstrike">შე კურთ</del> შე ღვთისაგან კურთხეულო ადამიანო, რომ <lb/>
+                  მე სულის წაწყმენდისაგან დამიხსენ. წეღან გელაპარაკებოდი<lb/>
+                  ბრმა<del type="overstrike">მ</del> შვილის ცოდვაში ვდგებოდი, ეხლა <del type="overstrike">თქვენ</del> შენის<lb/>
+                  მადლიანის ენით თვალხეული, გეუბნები: ის მამა შვილის<lb/>
+                  დამღუპავი ყოფილა რომელსაც შენისთანა ღვთის კაცი<lb/>
+                  გამოუჩნდება შვილის გასაწურთვნელად და არ გააწურთვნინებს.<lb/>
+                  ნუ შეჯდება მწყერი ხესა ნუ იქნება გვარი მისი. ჩემმა<lb/>
+                  შვილმა კი წიგნი უნდა <del type="overstrike">უ</del> იცოდეს შენი 
+                  ჭირიმე!.. მომეცი ხელი<lb/>
+                  შენი კვნესამე ერთი გემ<del type="overstrike">ტყ</del><add place="above">თხ</add>ვიო.</p>
+            </sp>
+               <p>გულმო<del type="overstrike">მ</del>ლბობილი პეტრე მივარდა ხელზედ საკოცნელად,<lb/>
+                  მღვდელმა აკურთხა და არ<del type="overstrike">ა</del> ამ<del type="overstrike">ტ</del>თხვევინა კი. <del type="overstrike">შ</del>მაშ და-<lb/>
+                  მილოცე მაინც მამის ერთა შვილი, უთხრა პეტრემ და შვილი<lb/>
+                  წინ წამოაყენა. მღვდელმა აკურთხა ის ბავშვი და თავზედ<lb/>
+                  აკოცა გაღიმებულმა. შვილო, ეს დღე დაიხსომე, უთხრა<lb/>
+                  შვილსა პეტრემ ეს დღე მე და შენთვის მზიანი დღეა.<lb/>
+                  მღვდელი აირია ვნახე რომ მოენამა თვალებიცა. უეცრად<lb/>
+                  მოაშორა თვალი გულამომჯდარ პეტრეს და იმის თავ-<lb/>
+                  ჩაღუნულ შვილსა თითქო თავის გულის მადლიანობა<lb/>
+                  უნდა დაუმალოს მამასაც და შვილსაცაო. მღვდელი<lb/>
+                  რომ მიტრიალდა ერთ ვიღაცა დროულ კაცს თვალი შეასწრო <lb/>
+                  <pb n="32"/>
+                  და უთხრა: ზაქარია არა გრცხვენიანო კაცო რომ ძმასთან<lb/>
+                  <del type="overstrike">ა</del> ვერ მოთავსებულხარ - ძმასთან. ვინც შეიტყობს რას <lb/>
+                  იტყვის სირცხვილია სირცხვილი. თავზედ ერთი ბეწვიც <lb/>
+                  აღარა გაქვს შავი და მაგისთანა საქმე<add place="above">ე</add>ბსა კი სჩადი.</p>
+               <p> რა ვქმნა, შენი ჭირიმე, უპასუხა იმან ცოტად შერცხვენილმა.<lb/>
+                  განა რომ მრცხვენიან, მაგრამ ერთი აჯამი რამ არის<lb/>
+                  მოუსვენარი. ღმერთია მოწამე მე უბრალო ვარ. ნუ<lb/>
+                  ცრუობ, მაგ დროული კაცი, ცოდვაა. დღეს არ გეუბნებოდით<lb/>
+                  საყდარში რომ ქრისტე ღმერთმა მტრის სიყვარულიც ბრძანა,<lb/>
+                  და შენ კი, მტერი <add place="above">კი</add> არა, ღვიძლი ძმა ამოგიძულებია. სირცხვილია,<lb/>
+                  უშვილო კაცი ხარ და  დროული თუ კაცისა არა გრცხვენიან<lb/>
+                  ღმერთი ხომ <del type="overstrike">ხვ</del> ყველას ხედავს რა პირით შეჰხვდები? <lb/>
+                  აბეზარსა ვარ მოსული, ამ საყვდრის მადლმა და შენი<lb/>
+                  რისხვა არა მაქვს. ძმარს მა<del type="overstrike">ც</del><add place="above">წ</add>ურებს ცხვირში<lb/>
+                  სხვა არა იყოს რა უფროსი ძმა ვარ. მე არ ვიცი.<lb/>
+                  თქვენ<del type="overstrike">ი</del> ორივე მტყუანები ხართ ღმერთ<add place="above">თ</add>ანაც და კაცთანაც<lb/>
+                  იმიტომ, რომ ძმები ხართ და ჰჩხუბობთ კი. ამ<lb/>
+                  ხალხთან გეუბნებით თქვენსა <add place="above">შენცა</add> და თქვენს <add place="above">შენს</add> ძმასაცა <lb/>
+                  თუ ერთიერთმანეთის პატივი არ გექნებათ საყდარში <lb/>
+                  აღარ შემოგიშვებთ. ეს რომ <del type="overstrike">სტქვა</del> სთქვა, <lb/>
+                  <pb n="33"/>
+                  აკურთხა ყველანი და გამოემართა შინისაკენ.</p>
+               <note place="margin-left">5. p.38</note> 
+               <p>გამობრუნებაში წინ შეეხალა გლახუკა. ოჰ, გლახუკას <lb/>
+                  გაუმარჯოს, ჩემს გლახუკას! შემოსცინა მღვდელმა: რასა იქ და <lb/>
+                  როგორა ხარ? გახლავარ, შენი ჭირიმე, შენის ლოცვით <lb/>
+                  და კურთხევით, მიუგო გლახუკამ და ქუდმოშვლეპილმა კურთხევა <lb/>
+                  ჩამოართვა.</p>
+               <p> აკურთხა თუ არა, გადასდო მხარზედ ხელი და ისე ხელ-<lb/>
+                  გადაჭდობილი წამოვიდა. მე ბევრი რამ გამიკვირდა იმ დღეს და <lb/>
+                  ისე კი არა გამკვირვებიარა. აბა გლახუკა ვინ იყო? ერთი უბრალო <lb/>
+                  მოსამსახურე — და მაინც კი მღვდელმა არ ითაკილა და ხელი <lb/>
+                  გადასდო. მაშინ მე რა ვიყავ, მაგრამ ამისთანა თავდაბლობამ ჩემი <lb/>
+                  გული მოინადირა. მეც იმათ უკან ავედევნე.
+               </p>
+               <sp>
+                  <p>სადა ხარ, რომ აღარა ჰჩანდი? ჰკითხავდა მღვდელი.</p>
+               </sp>
+               <sp>
+                  <p>ეს თთვე ნახევარია, რაც გიახელი — უპასუხა გლახუკამ: <lb/>
+                     თორემ აქამდინ აღას ვახლდი კახეთშია.</p>
+               </sp>
+               <sp>
+                  <p>ერთხელ მაინც როგორ არ მინახულე, ბიჭო! ერთ დროს <lb/>
+                     მე და შენ ხომ მეგობრები ვიყავით, პური ერთად გაგვიტეხია, ერთ <lb/>
+                     ჭერ ქვეშ დაგვიხველებია, სხვა არა იყოს რა.</p>
+               </sp>
+               <p>თქვენმა მადლმა, მოცლა არა მაქვს. ამოდენა სახლი <lb/>
+                  და სახლის ავეჯეულობა ეხლა მარტო მეღა მაბარია, ჩემ მეტი <lb/>
+                  <pb n="34"/>
+                  აღარავინ ჰყავთ. სულ ყველანი დაითხოვეს, თორემ როგორ არ <lb/>
+                  გიახლებოდით. თქვენზედ უკეთესს ვისა ვნახავ ეგა სჯობია <lb/>
+                  ჩემ ნახვასა, ჩემო გლახა შენს საქმეზედ იყავ ბეჯითი, <lb/>
+                  გულმოდგინე, ერთგული რომ ღმერთიც მადლობელი <lb/>
+                  იყოს და კაციც. რასაც ვიკისრებთ, ის უნდა <lb/>
+                  ავისრულოთ კიდეც. ლუკმა მაშინ არის ტკბილი,<lb/>
+                  როცა კაი კაცობით არის ნაშოვნე. <del type="overstrike">შე</del> ჩემი ნახვა, ძმავ, <lb/>
+                  ისე საჭირო არ არის. არა კაცი <del type="overstrike">ისე</del> იმოდენა სიკეთეს <lb/>
+                  არ მოგცემს, რამოდენადაც შენის ვალის ასრულება. <lb/>
+                  ამ ლაპარაკში რომ იყვნენ, ქუჩას <del type="overstrike">წა</del> ჩამოსცილდნენ. არ <lb/>
+                  ვიცი, ჩემი ფეხის ხმაურობა გაიგო თუ არა შემომხედა <lb/>
+                  და რომ დამინახა უკან მივდევ, ჰკითხა: რაო ძმობილო, <lb/>
+                  ჩემთან საქმე ხომ არა გაქვს. არა შენი ჭირიმე <lb/>
+                  გლახუკას მოვდევ. მე მეგონა ჩემთან გინდა რამე, <lb/>
+                  მითხრა ესა <add place="above">ისე</add> და წავიდა ისევ ხელგადა<del type="overstrike">პჟ</del><add place="above">ბჭ</add>ობილი. <lb/>
+                  მე დავშორდი. გლახუკამ რაღაც ლაპარაკი დაუწყო<lb/>
+                  მე არაფერი <del type="overstrike">არ</del> აღარ მესმოდა ისე შორს ვიყავ. <lb/>
+                  მინამ გლახუკა გაათავებდა სიტყვას მღვდელი <lb/>
+                  შედგა და ორიოდჯერ თავის მადლიანი თვალ<del type="overstrike">ები</del><add place="above">ით</add> <lb/>
+                  შემომხედა. მაშინვე მივხვდი, რომ ჩემზედ 
+                  <pb n="35"/>
+                  ლაპარაკობდნენ და, სწორედ გითხრათ, გული ამიტოკდა, <lb/>
+                  თითქო იმ ლაპარაკით ჩემი<del type="overstrike">ს</del> ბედის წერა სწყდებოდა. <lb/>
+                  იმ დალოცვილმა ხელი დამიქნივა მე ვიშლიპე ქუდი <lb/>
+                  და როგორც სალდათი უფროსს ისე ქუდმოხდილი <lb/>
+                  გამოვეჭიმე. იმან თავის ხელით ქუდი თავზედ დამხურა, <lb/>
+                  მაშინ კი თვალი გავუსწორე. რა გითხრათ, რა კაცი <lb/>
+                  დავინახე ჩემ წინ. ხატებს რომ ჰხატავენ ის იყო, მადლით, <lb/>
+                  <del type="overstrike">საფ</del> მადლით იყვნენ სავსენი მისი. ჩაფიქრებული <lb/>
+                  თვალები. დიდი მადლი უნდა უტრიალებ<add place="above">დე</add>ს კაცს <lb/>
+                  გულში, რომ ისე გამოსცეს, გამოატანოს თვალებს როგორც <lb/>
+                  იმის თვალებისთვის გამოეცა და გამოეტანა. არ ვიცი, <lb/>
+                  ჩაგონებული რომ ვიყავ, იმისთვის მეჩვენა ის კაცი <lb/>
+                  ხატად თუ რა, ეს კი ვიცი, რომ აქამდინაც გულში <lb/>
+                  ისე ჩამრჩა ჩასახული როგორც პირველადა ვნახე. <lb/>
+                  წამოსადეგი კაცი იყო, გამხდარი სახე ცოტა ფერმკრთალი <lb/>
+                  ჰქონდა, ნაღველს ცოტაოდნად ხელი გაეკრა, როგორც <lb/>
+                  ემჩნევა: ხოლმე მუდამ ზრუნვის ნაჩვევსა და სხვის <lb/>
+                  გულ<add place="above">ი</add>სა შემატკივარსა.
+               </p>      
+            <p><title>წერვა</title></p>
+            <table>               
+               <row>
+                  <cell>მე ვსწერ</cell>
+                  <cell>ჩვენ ვწერთ</cell>
+                  <cell>მე ვწერდი</cell>
+                  <cell>ჩვენ ვწერდით</cell>
+               </row>
+               <row>
+                  <cell>შენ სწერ</cell>
+                  <cell>თქვენ სწერთ</cell>
+                  <cell>შენ სწერდი</cell>
+                  <cell>თქვენ სწერდით</cell>
+               </row>
+               <row>
+                  <cell>ის სწერს</cell>
+                  <cell>ისინი სწერენ</cell>
+                  <cell>ის სწერდა</cell>
+                  <cell>ისინი სწერდნენ</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell>მე ვწერე</cell>
+                  <cell>ჩვენ ვწერეთ</cell>
+               </row>
+               <row>
+                  <cell>შენ სწერე</cell>
+                  <cell>თქვენ სწერეთ</cell>
+               </row>
+               <row>
+                  <cell>ის სწერა</cell>
+                  <cell>ისინი სწერეს</cell>
+               </row>
+            </table>
+            <p>
+               მე ვსწერ წერილი ჩემ დედას. <lb/>
+               ჩემი ძმა მწერდა ყოველ კვირა. <lb/>
+               როდესაც მე თბილისში ვიყავი გწერე. <lb/>
+               რამდენიმე წელიწადია მიწერია. <lb/>
+            </p>  
+            <p><title>წერვა, წერა</title></p>
+            <pb n="37"/>
+            <table>
+               <row>
+                  <cell role="label">აწმყო</cell>
+                  <cell>მე ვსწერ</cell>
+                  <cell>ჩვენ ვწერთ</cell>
+                  <cell role="label">უსრული</cell>
+                  <cell>მე ვწერდი</cell>
+                  <cell>ჩვენ ვწერდით</cell>
+               </row>
+               <row>
+                  <cell></cell>
+                  <cell>შენ სწერ</cell>
+                  <cell>თქვენ სწერთ</cell>
+                  <cell></cell>
+                  <cell>შენ სწერდი</cell>
+                  <cell>თქვენ სწერდით</cell>
+               </row>
+               <row>
+                  <cell></cell>
+                  <cell>ის სწერს</cell>
+                  <cell>ისინი სწერენ</cell>
+                  <cell></cell>
+                  <cell>ის სწერდა</cell>
+                  <cell>ისინი სწერდნენ</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell>ვსწერე</cell>
+                  <cell>ვსწერეთ</cell>
+                  <cell>მიწერია</cell>
+                  <cell>გვიწერია<del type="overstrike">თ</del></cell>
+               </row>
+               <row>
+                  <cell>სწერე</cell>
+                  <cell>სწერეთ</cell>
+                  <cell>გიწერია</cell>
+                  <cell>გიწერიათ</cell>
+               </row>
+               <row>
+                  <cell>სწერა</cell>
+                  <cell>სწერეს</cell>
+                  <cell>უწერია</cell>
+                  <cell>უწერიათ</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell>დავსწერავ</cell>
+                  <cell>დავსწერავთ</cell>
+               </row>
+               <row>
+                  <cell>დასწერავ</cell>
+                  <cell>დასწერავთ</cell>
+               </row>
+               <row>
+                  <cell>დასწერავს</cell>
+                  <cell>დასწერავენ</cell>
+               </row>
+            </table>
+            <note place="margin-right">Tavrida Palace</note> 
+            <p>ღვინო არსად იყო, ეშმაკები თიკსა ბერავდნენ.</p>
+            <pb n="38"/>
+            <p><title>რჩება</title></p>
+            <table>
+               <row>
+                  <cell role="label">P.</cell>
+                  <cell>ვრჩები</cell>
+                  <cell>ვრჩებით</cell>
+                  <cell role="label">9.</cell>
+                  <cell>ვრჩებოდი</cell>
+                  <cell>ვრჩებოდით</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>რჩები</cell>
+                  <cell>რჩებით</cell>
+                  <cell/>
+                  <cell>რჩებოდი</cell>
+                  <cell>რჩებოდით</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>რჩება</cell>
+                  <cell>რჩებიან</cell>
+                  <cell/>
+                  <cell>რჩებოდა</cell>
+                  <cell>რჩებოდნენ</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell role="label">Per.</cell>
+                  <cell>დავრჩ<del type="overstrike">ე</del>ი</cell>
+                  <cell>დავრჩ<del type="overstrike">ე</del>ით</cell>
+                  <cell role="label">F.</cell>
+                  <cell>დავრჩები</cell>
+                  <cell>დავრჩებით</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დარჩებ<del type="overstrike">ე</del>ი</cell>
+                  <cell>დარჩ<del type="overstrike">ე</del>ით</cell>
+                  <cell/>
+                  <cell>დარჩები</cell>
+                  <cell>დარჩებით</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დარჩა</cell>
+                  <cell>დარჩნენ</cell>
+                  <cell/>
+                  <cell>დარჩება</cell>
+                  <cell>დარჩებიან</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell role="label">S</cell>
+                  <cell>დავრჩ<del type="overstrike">ი</del>ე</cell>
+                  <cell>დავრჩ<del type="overstrike">ი</del>ეთ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დარჩებ<del type="overstrike">ი</del>ე</cell>
+                  <cell>დარჩ<del type="overstrike">ი</del>ეთ</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>დარჩ<del type="overstrike">ი</del>ეს</cell>
+                  <cell>დარჩ<del type="overstrike">იან</del>ნენ</cell>
+               </row>
+            </table>
+            <pb n="39"/>
+            <gap quantity="4" unit="lines" reason="illegible"/>            
+            <p>მ.ხ.</p> 
+            <p>ამ წლის დასაწყისში <add place="above">გამო</add>გიგზავნეთ 10 მან. ჩემი წლიური <lb/>
+               გამოწერ<del type="overstrike">ა</del><add place="above">ის </add><del type="overstrike">ფასი</del> ცნობის ფურცლის<del type="overstrike">ა</del> და მოამბის<del type="overstrike">ა</del>. <add place="above">ფასი</add> რადგან <lb/>
+               მოამბე აღარ გამოდის <del type="overstrike">გა</del> ინებ<del type="overstrike">ო</del><add place="above">ე</add>თ გარდასცეთ <lb/>
+               დანარჩენი სამი მან. ივერი<del type="overstrike">ა</del><add place="above">ი</add>ს რედაქციას<del type="overstrike">ში. ამ<lb/>
+               თხოვნით რომ ივერიას გამომიგზავნეს.</del><lb/>
+               და სთხოვეთ რომ 				თ. პ. <lb/>
+               გამომიგზავნონ თავიანთი გაზეთი ამ ადრესით. </p>            
+            <pb n="40"/>
+            <table>
+               <row>
+                  <cell>ია</cell>
+                  <cell>თითო</cell>
+                  <cell>დასახლება</cell>
+                  <cell>form a colony, colonize. settle</cell>
+               </row>
+               <row>
+                  <cell>აი</cell>
+                  <cell>სოსო</cell>
+                  <cell>ბელადი</cell>
+                  <cell>guide, conductor</cell>
+               </row>
+               <row>
+                  <cell>თითი</cell>
+                  <cell>ოთხი</cell>
+                  <cell></cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>ათი</cell>
+                  <cell>ოთახი</cell>
+                  <cell>ჩარჩი</cell>
+                  <cell>dealer, bargainer</cell>
+               </row>
+               <row>
+                  <cell>თითა</cell>
+                  <cell>ხე</cell>
+                  <cell>სატაცური</cell>
+                  <cell>asparagus</cell>
+               </row>
+               <row>
+                  <cell>თათი</cell>
+                  <cell>სახე</cell>
+                  <cell>ფოჩი</cell>
+                  <cell>heads (lit. fringe)</cell>
+               </row>
+               <row>
+                  <cell>ის</cell>
+                  <cell>თესე</cell>
+                  <cell>ღერო</cell>
+                  <cell>stalks</cell>
+               </row>
+               <row>
+                  <cell>ასი</cell>
+                  <cell>სესხი</cell>
+                  <cell>შევაჭრება(ვე)</cell>
+                  <cell>task the price</cell>
+               </row>
+               <row>
+                  <cell>თასი</cell>
+                  <cell>სათითე</cell>
+                  <cell>გამოართო (გამორთმევა)</cell>
+                  <cell>he took</cell>
+               </row>
+               <row>
+                  <cell>საათი</cell>
+                  <cell>სათესე</cell>
+                  <cell>კიბო</cell>
+                  <cell>crab? crayfish</cell>
+               </row>
+               <row>
+                  <cell>სასა</cell>
+                  <cell></cell>
+                  <cell>ხარაზი</cell>
+                  <cell>shoemaker</cell>
+               </row>
+               <row>
+                  <cell>თხა</cell>
+                  <cell></cell>
+                  <cell>რჯა</cell>
+                  <cell>to take the trouble, occupy oneself with</cell>
+               </row>
+               <row>
+                  <cell>ასი</cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>ხახა</cell>
+                  <cell></cell>
+                  <cell>ნუ ირჯებით</cell>
+                  <cell>don't take the trouble</cell>
+               </row>
+               <row>
+                  <cell>თიხა</cell>
+                  <cell></cell>
+                  <cell>რა <del type="overstrike">გჭ</del> გრჯის</cell>
+                  <cell>what does it matter to thee?</cell>
+               </row>
+               <row>
+                  <cell>თოხი</cell>
+                  <cell></cell>
+                  <cell>ქაჩაჩი</cell>
+                  <cell>horse shoe</cell>
+               </row>
+               <row>
+                  <cell>ოსი</cell>
+                  <cell></cell>
+                  <cell>მიყოლა</cell>
+                  <cell>to follow, go after, imitate, put</cell>
+               </row>
+               <row>
+                  <cell>სიო</cell>
+                  <cell></cell>
+                  <cell>მოზიდვა</cell>
+                  <cell>attract, charm, bend bow</cell>
+               </row>
+               <pb n="41"/>
+               <row>
+                  <cell>დასჯა</cell>
+                  <cell>punish, condemn</cell>
+                  <cell></cell>
+                  <cell></cell>
+               </row>
+            </table>
+         </div>
+         <div>
+            <head><persName key="person001">Tamara</persName></head> 
+               
+               <p>p.40 (Legend)							ganashvili Ц. Тамара</p>
+               <p>One night she was sewing garments for the poor. <lb/> 
+                  Towards morning she fell asleep and dreamed <lb/> 
+                  that she was in a garden fair as Paradise, <lb/> 
+                  in the midst of which were seats and a <lb/> 
+                  throne. She went towards the throne to sit down. <lb/> 
+                  But on the way she was stopped by one in <lb/> 
+                  shining raiment who said: Thou art not <lb/> 
+                  worthy of the throne, it is prepared for thy <lb/> 
+                  maid of honour who has sewn garments <add place="above">chasubles</add> for <lb/> 
+                  twelve priests. <persName key="person001">Tamara</persName> awoke and having called <lb/> 
+                  her maid of honour satisfied herself of the truth <lb/> 
+                  of the vision. <persName key="person001">Tamara</persName> at once ordered wool from <lb/> 
+                  <placeName key="place001">Alexandria</placeName> and embroidered 12 priestly robes. .</p>                
+               <p>Her favourite name for herself: Father of orphans and judge of the widows.</p> 
+               <pb n="42"/>
+               <p>She gave alms not from the state funds, but from <lb/> 
+                  the money gained from the sale of her work. <lb/> 
+                  She also laid aside 1/40 of all the income of the <lb/> 
+                  Kingdom for charity. </p>
+               <p>(Legend)</p>
+            <p><persName key="person001">Tamara</persName>, on a solemn day, was dressing to go <lb/> 
+                  to the monastery of <placeName key="place002">Gelathi</placeName>. While she was <lb/> 
+                  fastening on a breastplate set with precious <lb/> 
+                  rubies and gmes she was told that a beggar <lb/> 
+                  was seeking alms at her gate. She gave <lb/> 
+                  orders that he was to wait. When she came <lb/> 
+                  out she asked for the beggar – but he could <lb/> 
+               not be found. <persName key="person001">Tamara</persName> reproached herself <lb/> 
+                     <del type="overstrike">and</del> saying that she had refused <add place="above">denied</add> her Lord in <lb/> 
+                     this beggar and taking off the cause of her <lb/> 
+                     stumbling – the heartplate of precious stones <lb/> 
+                     she placed it on the crown of the Virgin as <lb/> 
+                     more worthy of them. On this breastplate <lb/> 
+                     there were three immense rubies, each had <lb/> 
+                     <pb n="43"/>
+                     its name: obola (           ) kedela (           ) <lb/> 
+                     and modega (            ). The breast cross of <lb/> 
+               <persName key="person001">Tamara</persName> is now at <placeName key="place003">Khoni</placeName>. </p>
+            <list type="hierarchical">
+               <item><placeName key="place002">Dimitri</placeName> 1155 
+                  <list>
+                     <item><placeName key="place003">David</placeName>
+                        <list>
+                           <item><placeName key="place006">Dmitri</placeName></item>
+                        </list>
+                     </item>
+                     <item><placeName key="place004">Giorgi</placeName>
+                        <list>
+                           <item><placeName key="place001">Tamara</placeName></item>
+                        </list>
+                     </item>
+                     <item><placeName key="place005">Rusudan</placeName></item>
+                     <item><placeName key="place007">Tamara</placeName></item>
+                  </list>
+               </item>
+            </list>
+            <p><persName key="place002">Dmitri</persName> resigned the throne to <persName key="place003">David</persName> and became a <lb/>
+               monk. Within a year he died, <persName key="person007">Tamara</persName>, <add place="above">a nun </add>, foundress <lb/>
+                  of <placeName key="place004">Tigvi</placeName> monastery in <placeName key="place005">Karthli</placeName> also died and <persName key="place003">David</persName> <lb/>
+                  having reigned only 6 months died, bequeathing <lb/>
+                  the throne to his infant with <persName key="place004">Giorgi</persName> as regent.</p> 
+            <p><persName key="person001">Tamara</persName> came to the throne aged 23 in 1179. </p>
+               
+            <p><title><persName key="person001">Tamara</persName> and the <placeName key="place006">Caspian</placeName> (legend)</title></p>
+                  <p>The dream of her mother was fulfilled; the <lb/>
+                     father of <persName key="person001">Tamara</persName> fell asleep and she sat on the throne<lb/>
+                        throne of her fathers. With gentle <add place="above">benign</add> ray she illumned <placeName key="place007">Georgia</placeName>, <lb/>
+                           with threatining cloud <add place="above">(host)</add> she bent herself to the East.</p>
+                           <pb n="44"/>
+                           <p>The meaning crescent peacefully bowed before the <lb/>
+                              cross. Persians fell, Seljuks trembled, the disobedient <lb/>
+                              mountaineers laid down their weapons, from the <lb/>
+                              gates of <placeName key="place008">Derbend</placeName> to <placeName key="place009">Trebizond</placeName>, from the summits of <lb/>
+                              the <placeName key="place010">Caucasus</placeName> to <placeName key="place011">Damascus</placeName> – all fell below the <lb/>
+                              all powerful. The East opened its treasures, <lb/>
+                              the West sang her glory, the North and the South <lb/>
+                              marvelled at her might. The towns sent her wealth, <lb/>
+                              the villages – God’s gift, the Tomb of the Lord – its <lb/>
+                              blessing. </p>
+                           <p>Only the <placeName key="place006">Caspian</placeName> was not <add place="above">pacified</add> subdued,  nor soothed. <lb/>
+                              Storming he swept <add place="above">flung</add> up his green waves, meaningly he <lb/>
+                              he clothed himself in grey <del type="overstrike">gloom</del> mist, powerfully he <lb/>
+                              roared from his deep couch.</p>
+                           <p>What, cried he, bold-faced, what is the <lb/>
+                              great <persName key="person001">Tamara</persName>, Queen of Kings to me! What though <lb/>
+                              her might be awful, it is not more awful than <lb/>
+                              my waves, what though her armies be terrible, they <lb/>
+                              are not more terrible than my tempests. They<lb/>
+                              <pb n="45"/>
+                              threaten foes with speedy ruin, my powers serve me <lb/>
+                              with trusty shield. I am not to be made be wonder <lb/>
+                              at might nor I am to be struck by wealth. Precious <lb/>
+                              is the wealth of the Queen, but it is not to be compared <lb/>
+                              with mine. Many pure gems lie in <placeName key="place006">Caspian</placeName>s depths, <lb/>
+                              many kinds of wealth are on his waters. And how <lb/>
+                              many vassals, send down waters to him, fling goods <lb/>
+                              from North and South. Oh no! wherefore match <add place="above"> (vie) with</add> me <lb/>
+                              the Empress of Georgia, why compare her with<lb/>
+                              old <placeName key="place006">Caspian</placeName>! No tributary am I to <persName key="person001">Tamara</persName>, <lb/>
+                              nor will I ever became one, I will remain <add place="above">still be</add> as in <lb/>
+                              the past, a free element. </p>
+                            <p>And these words came to the ears of the Empress. <lb/>
+                              Gently she turned her head to the sea-rebel, to the <lb/>
+                              sea-fool, and a dark fold lay between her brows. <lb/>
+                              And her armies <del type="overstrike">dashed</del> <add place="above">gullopped</add> off to punish the stubborn one, <lb/>
+                              the Spasalars dashed away to make the foolish one <lb/>
+                              listen to reason. With a groan the shores of <placeName key="place006">Caspian</placeName><lb/>
+                              began to groan, woods and <add place="above">cliffs</add> began to sob All<lb/>
+                              <pb n="46"/>
+                              that was on <del type="overstrike">their</del> its path – even with Gurgan – <lb/>
+                              all lay down before the still or fled to the <lb/>
+                              <placeName key="place006">Caspian</placeName>. The mother of the damp earth was <lb/>
+                              moved <add place="above">agitated (of liquids) </add> beneath <del type="overstrike">it</del> <add place="above">in</add> (<placeName key="place006">Caspian</placeName>); she cast <add place="above">poured</add> forth <add place="above">naptha</add> into <lb/>
+                              the sea, in miles streams, revenging herself for the <lb/>
+                              wrath of the Queen. Thunder roared, lightning <lb/>
+                              flashed, and <placeName key="place006">Caspian</placeName> was enveloped in flames <lb/>
+                              from shore to shore. </p>
+                             <p>Long he tossed in his fiery couch, <lb/>
+                               long he begged mercy form the Queen. He promised <lb/>
+                               her his wealth and peace of a vassal’s troth. <lb/>
+                               The Queen was gracious and took away the <lb/>
+                               punishment… And from that time the <placeName key="place006">Caspian</placeName> has given light to humanity – i.e. <lb/>
+                               naptha. </p>
+                             <p>(This legend is known north on <placeName key="place012">Black Sea</placeName> and <lb/>
+                               <del type="overstrike">Caspi</del> in <placeName key="place013">Cakheti</placeName>)</p>
+                               <pb n="47"/>
+                             <p>(ღალატი)</p>
+                                             
+                                             <table>
+                                                <row>
+                                                   <cell>გრეხილი</cell>
+                                                   <cell>twisted</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>ჩამწკვრივებული</cell>
+                                                   <cell>set in rows</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>კამარი</cell>
+                                                   <cell>arch</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>ხვეული</cell>
+                                                   <cell>tangled</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>ვარაყი</cell>
+                                                   <cell>gold leaf</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>მინანქარი</cell>
+                                                   <cell>enamel</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>აუზი</cell>
+                                                   <cell>basin</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>შავგრემან</cell>
+                                                   <cell>brown</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>აჭრელება</cell>
+                                                   <cell>variegated</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>ყორჩი</cell>
+                                                   <cell>soldier</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>გათქვირული</cell>
+                                                   <cell>fat</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>(?) მაცეცარა</cell>
+                                                   <cell></cell>
+                                                </row>
+                                                <row>
+                                                   <cell>ბრგე</cell>
+                                                   <cell>of fine figure</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>მიპარსული</cell>
+                                                   <cell>shaven</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>(?) ბიღი</cell>
+                                                   <cell></cell>
+                                                </row>
+                                                <row>
+                                                   <cell>ნაბრჯვილი, dict. ნაბრძვილი</cell>
+                                                   <cell>
+                                                      place of scar
+                                                      <del type="overstrike">scare</del>
+                                                   </cell>
+                                                </row>
+                                                <row>
+                                                   <cell>დუნე</cell>
+                                                   <cell>gentle</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>თავდახრილი</cell>
+                                                   <cell>bent head</cell>
+                                                </row>
+                                                <row>
+                                                   <cell>სულგანაბული</cell>
+                                                   <cell>frightened</cell>
+                                                </row>
+                                             </table>
+         </div>
+         <div>
+            <pb n="120"/>
+            <p>Торг. Промышл. 16/29 March 1906</p>
+            <p>According to Staroselsky, late governor of <placeName key="place014">Kutaisi</placeName>, <add place="above"> in a report to the political club on the Caucasus </add>, the <lb/>
+               revolutionary movement in W. <placeName key="place007">Georgia</placeName> is due solely to the <lb/>
+               lack of land. At the <add place="above"> Before</add>  emancipation the allotment was altogether <lb/>
+               1 ½ desiatins; in order to keep a family it is was  necessary to <lb/>
+               rent as much again and to earn in other ways 60 to 70 rubls per. <lb/>
+                ann.  Besides these peasants there is another class, ‘temporarily <lb/>
+                                 ’ owning from 2 – 2 ¼ desiatins. In <date when="1862">1862</date> loans of <lb/>
+               from 15 to 30 rubls were granted to those peasants wishing to <lb/>
+               buy allatments and taxes were fixed: ¼ of the harvest, 1/3 of <lb/>
+               the garden produce and ¼ of the hay harvest. Before it was <lb/>
+               only 1/8 of the harvest, now another 1/8 was added as <add place="above">’soul’</add> purchase. <lb/>
+                Peasants with 3 des. of their own or state lands pay 20 – 21 r. <lb/>
+               but  ‘temporarily                   ’ about 70 r. besides this they are subject <lb/>
+               to certain limitations – for instance, they cannot remove the <lb/>
+               harvest from the field without the permission of the squire <lb/>
+               or his                    ; his share of the harvest has sometimes <lb/>
+               to be carried several works. Prices of rent are high and <lb/>
+               increasing and besides the conditions of renting are burdensome <lb/>
+               in Russia the straw bleongs to the rentor but in <placeName key="place007">Georgia</placeName> it does not<lb/>
+            <pb n="119"/>
+               they only rent land in order to find a place for extra sorting <lb/>
+               lands in the family or extra cattle, </p> 
+               <pb n="118"/>
+               <p>Surebi is a narrow valley between mountains. All the <lb/>
+               houses forsaken the people having fled with families <lb/>
+               into the woods and snowy rocks where they erected tents. <lb/>
+               Shops closed and empty. About ten men. What people <lb/>
+               left assembled to discuss how they were to find weapons <lb/>
+               to give up as soldiers had threatened to harm the <lb/>
+               village if they did not give up a certain number. <lb/>
+               The only means left to run about country and buy guns. </p>
+
+            <p>ცნ. ფ. 3022 Help ‘women’             <persName key="person008"> A. Tsereteli </persName> </p>
+            <p><date when="1906-03-09">9/21 Mar. 1906</date></p>
+            <p>For nearly two moths from every corner of <placeName key="place007">Georgia</placeName>, <lb/>
+               especially from the West and from <placeName key="place005">Karthli</placeName> comes <lb/>
+               hearbreaking <add place="above"> terrible</add>tidings of burning, outrage, terrorizing <lb/>
+               and humiliation there is no end. Eye witnesses write <lb/>
+               that the people are wondering in the mountains <lb/>
+               and roads, in heaps of snow and slush in hurricanes <lb/>
+               and wind, hundreds and thousands falling victims of <lb/>
+               cold and hunger; the days <add place="above">time</add> of <persName key="person009"> Agha Mahmad Khan’s </persName> <lb/>
+               invasion are far surpassed – and we sit 
+            <pb n="117"/>
+               with our hands folded on our breasts and only <lb/>
+               weep. It is time that we came ourselves <lb/>
+               and act something. </p> 
+            <p>We appeal to you, sisters, brothers, children <lb/>
+               let us help the refugees as we are able; with old <lb/>
+               and new warm clothing, money and medicine, etc. <lb/>
+               send it by women. </p>
+            <p>In <placeName key="place014">Kutaisi</placeName> women especially gymnasium girls are <lb/>
+               insulted on the streets by Cassacks and soldiers and <lb/>
+               are afraid to walk around. </p>
+            <p>ცნ. ფ. 3025</p>
+            <p>In <placeName key="place015">Imeretia</placeName> it is time to begin working in the vineyard <lb/>
+               and fields but the people are afraid. Villages near <placeName key="place016">Sachkere</placeName> <lb/>
+               in especially pitiable condition. In the middle of <unclear> territory </unclear><lb/>
+               Cossack leader asked for army rifles. The people did not <lb/>
+               know what to do as they had none. Then it was said <lb/>
+               and proved in time that they found 20 rifles in a rock at <lb/>
+               the village of <placeName key="place017">Khreili</placeName>. </p>
+            <pb n="116"/>
+            <p>In <placeName key="place018">Tsirkvali</placeName> they burnt the house of an aged <placeName key="place058">Guria</placeName>n who was <lb/>
+               guilty in nothing. He went to <placeName key="place014">Kutaisi</placeName> and complained to the <lb/>
+               gov. gen. That the accused his son <persName key="person010">Shakro</persName> of something <lb/>
+               but he had not hired at home for 20 years. After his house <lb/>
+               was burned news came from <placeName key="place014">Kutaisi</placeName> that nothing was to <lb/>
+               be done to him.  In <placeName key="place019">Chiaturi</placeName> they seized <persName key="person011">Adam Gumburidze</persName> <lb/>
+               and killed him on the way <unclear>….</unclear>, saying that he<lb/>
+               tried to escape. Several villages gave up men owing <lb/>
+               to the distress they were in. <unclear> In the  </unclear> village of <placeName key="place020">Koretlebi</placeName> <lb/>
+               Cossacks burned the house of <persName key="person012">Abramishvili</persName> because <lb/>
+               his son flew away after he had been given up. </p>
+            <p>In <placeName key="place016">Sachkheri</placeName> they pillaged a Jewish family <lb/>
+               and killed two. On suspicion arrested Data and <persName key="person013">Vano Kirvalidze</persName> <lb/>
+               and took them to <placeName key="place016">Sachkeri</placeName>. <add place="above">12 Cossacks</add> Burned the houses. On the<lb/>
+               way back several entered house and found a girl…<lb/>
+               She is still ill in bed. </p> 
+            <p>4 March went to village of <placeName key="place021">Argveti</placeName> and reached <lb/>
+               <persName key="person014">Joseb Iashvili</persName>’s house looking for <persName key="person015">Lado</persName>. They burned <persName key="person015">Lado</persName>’s <lb/>
+               and his brother <persName key="person016">Rostom</persName>’s houses. People afraid passed <lb/>
+               looking. Some hide belongings in ground, some in woods. On the<lb/>
+            <pb n="115"/>
+               Approach of the Cossacks women, child old and young<lb/>
+               flee to the woods. </p> 
+            <p>5 March burned <persName key="person017">Gachechiladze</persName>’s home with <lb/>
+               hotel ‘Paris’, and bank. Some time before it is suit that <lb/>
+               some cartridge had been formed in the house. </p> 
+            <p>6 March fire broke out in village of <placeName key="place022">Stvisi</placeName>. </p> 
+            <p>3003</p>
+            <p><title>Lechkhum</title></p>
+            <p><placeName key="place023">Tzageri</placeName> – Cossacks arrived people from all sites <lb/>
+               came presenting bread and salt satisfying demands. Nevertheless, <lb/>
+               they burned several houses, in one it is said that the owner was <lb/>
+               burnt to death. Then part of the Cossacks campain in <placeName key="place023">Tzageri</placeName> <lb/>
+               the others went back. In <placeName key="place024">Akhaldchala</placeName> they burnt <lb/>
+               Pr. <persName key="person018">Grigol Gelovani</persName>’s house and left the aged Gelovani without <lb/>
+               shelter. In <placeName key="place024">Akhaldchala</placeName> they also burned the house of <lb/>
+               Dr. <persName key="person019">Dimitri  Akholoebiani</persName> and of <persName key="person020">Aleksi Gelovani</persName>. Then they<lb/>
+               went to <placeName key="place025">Dchqvishi</placeName>, according to them the chief nest <lb/>
+               of the disorders in <placeName key="place026">Letchkum</placeName>, where they burnt <lb/>
+               10 houses among them that of the peasant Gasparia Tzkev <persName key="person021">Tzkhvediani</persName> <lb/>
+               because his dog hit a<lb/>
+            <pb n="114"/>
+               Cossack and <persName key="person022">Solomon Bendchadze</persName>’s by a mistake <lb/>
+               which they only discovered when it was ashes <add place="above">was  burned</add>. In this <lb/>
+               village they arrested several people <add place="above">peasants</add>whom they accused <lb/>
+               of being agitators. Then they returned to <placeName key="place027">Radcha</placeName> <lb/>
+               in v. of <placeName key="place059">Tola</placeName> they ruin destroyed one house with <lb/>
+               artillery in <placeName key="place028">Khvandchkara</placeName> they burned 47 houses. <lb/>
+               In one house there was <lb/>
+               a mad man bound and as he could not get away he was burned. The fire caught <lb/>
+               the house of the Marshal of the Nobility Pr. <persName key="person023">Kipiani</persName><lb/>
+                but was extinguished. Then Cossacks returned to <placeName key="place029">Oni</placeName>. </p> 
+            <p>In <placeName key="place027">Radcha</placeName> not known exactly what happened but on <lb/>
+               March 6 two sotnias of Cossacks visited <placeName key="place030">Nicortsminda</placeName> <lb/>
+               and burned several houses. Frightened women and children <lb/>
+               fled into the snowy woods and the surrounding villages <lb/>
+               were emptied. The same evening they searched the houses <lb/>
+               of <persName key="person024">Vaso</persName> and <persName key="person025">Ermile Bobokhidze</persName>s and set fire to both. <lb/>
+               In the village of <placeName key="place031">Khotevi</placeName> they burnt the homes of <lb/>
+               <persName key="person026">Osia Gordeziani</persName> and <persName key="person027">Minkha Chichinadze</persName>. This was <lb/>
+               nos enough. The leader announced that unless <lb/>
+               agitators (preaches) and guns were not forthcoming <lb/>     
+            <pb n="113"/>
+               they would ruin the whole place<add place="above">destroy them alltogether</add></p> 
+	         <p><placeName key="place032">Zugdidi</placeName>. In the present month a "pacifying <lb/>
+               division" of Cossacks with an officer visited <lb/>
+               <placeName key="place033">Dchcaduashi</placeName>. Pacifying began with the <add place="above"> <unclear>...</unclear> </add> burning of <lb/>
+               the priest <persName key="person028">Alshibaia</persName>’s house, but his son <persName key="person029">Vaso</persName> for <lb/>
+               whom they were looking as he had flew accused of <lb/>
+               wounding the Mazris umprosi <persName key="person030">Gaghamov</persName>, came to the <lb/>
+               officer and said ‘The house you are going to burn <lb/>
+               belongs to my aged parents and not <unclear> aplaned </unclear> <unclear> of it <lb/>
+               is mind </unclear>.  If you I am accused of anything I <lb/>
+               am ready to answer for it.’ After much discussion <lb/>
+               the officer agreed to spare the house, and took <lb/>
+               <persName key="person028">Alshibaia</persName> prisoner. Before he was out of <lb/>
+               his mother’s sight a Cossack shot him from <lb/>
+               behind. And he fell dead. Then the Cossacks went <lb/>
+               to search for <persName key="person031">Mushni Dadiani</persName> but as he <lb/>
+               was not at home they burnt his house. </p> 
+            <pb n="112"/>
+            <p><placeName key="place005">Karthli</placeName>. v. <placeName key="place034">Tezeri</placeName>. After the Cossacks had burned the <lb/>
+               bazar of <placeName key="place035">Khashuri</placeName> they burned several houses <lb/>
+               and barns at <placeName key="place036">Beghleti</placeName> and shot five men –<lb/>
+               three of one family <persName key="person032">Dchedlidze</persName>. In <placeName key="place034">Tezeri</placeName> there <lb/>
+               was great alarm. . Sentinels were placed day and <lb/>
+               night; any valuables were hidden or made <lb/>
+               ready to carry off at the first alarm. They were ready <lb/>
+               to flee with their wives and children from dishonour. </p> 
+            <p><placeName key="place037">Gori</placeName>’s Mazris umprosi with strajniks and Cossacks <lb/>
+               going to <placeName key="place038">Tirdzmisi</placeName> to make the peasants <lb/>
+               pay last year’s harvest to landlords - £400 <lb/>
+               peasants have nothing. </p> 
+            <p>3004. Cossacks been twice in <placeName key="place016">Sachkheri</placeName>. What happened <lb/>
+               there and <add place="above">and in the rest of <placeName key="place039">Shorapan</placeName> district</add>the correspondent cannot relate. Whole volumes <lb/>
+               would be needed. After the laying waste of <placeName key="place035">Khashuri</placeName> <lb/>
+               Bela<placeName key="place037">Gori</placeName> and <placeName key="place040">Zestaphoni</placeName> rumours reached <placeName key="place016">Sachkheri</placeName> <lb/>
+               that the Cossacks would spare nothing and nobody – <lb/>
+               all were to the victims of fire and every man and 
+            <pb n="111"/>
+               woman between age of 7 and 40 was the killed. 12 Jan. <lb/>
+               arrived and in the night began burning: burnt more than <lb/>
+               30 houses and shops. Many fled and hid themselves in the <lb/>
+               rocks. The people fled from <placeName key="place041">Calegati</placeName>, <placeName key="place042">Koreli</placeName>, <placeName key="place043">Sairkhe</placeName>, <lb/>
+               <placeName key="place044">Merjevi</placeName>, <placeName key="place045">Ivantsminda</placeName>, <placeName key="place046">Savane</placeName>, <placeName key="place047">Chikhi</placeName> and <placeName key="place048">Dunti</placeName>. <lb/>
+               Sad sight to see them dragging their children and <lb/>
+               what valuables they had through snow and <lb/>
+               mud. They made these villages responsible <lb/>
+               for 201,000 rubles stolen from <placeName key="place040">Zestaphoni</placeName> <lb/>
+               treasury and also for 47,000 rubles stolen from <lb/>
+               <placeName key="place019">Chiaturi</placeName>’s posttelegraph. With great pains the <lb/>
+               people collected the money selling 2 rubles worth of <lb/>
+               <add place="above">Indian corn</add>grain for 1 ruble and in a week or two they collected <lb/>
+               the money. They though the army would not <lb/>
+               come again. In 20 Jan. Some people <lb/>
+               attacked the house of a few. They wounded <lb/>
+               <persName key="person033">Iskhak Isvemishvili</persName> killed his son <add place="above">and <persName key="person034">Aron Shatashvili</persName> </add> and wounded <lb/>
+               the latter’s wife and carried off 3600 rubles. <lb/>
+               25 Jan. Cossacks came again – one sotnia <lb/>
+               stayed in <placeName key="place019">Chiaturi</placeName> the another in <placeName key="place016">Sachkheri</placeName>. </p> 
+            <pb n="110"/>
+            <p>Beginning of Feb. burned in v. <placeName key="place049">Pasieti</placeName> the houses of<lb/>
+               <persName key="person035">Metonidze</persName> and <persName key="person036">Sasimonidze</persName> – five altogether. <lb/>
+               In <placeName key="place050">Caluta</placeName> took away everything of value from<lb/>
+               <persName key="person037">Godabrelidze</persName>s houses. Priest <persName key="person038">Lavrenti Tsereteli</persName><lb/>
+               lost everything. Some of the people found shelter <lb/>
+               with relatives some hid in woods. The people <lb/>
+               comply with all the demands: they have given <lb/>
+               up weapons. </p> 
+            <p>3016</p>
+            <p>Cossacks searching in <placeName key="place039">Shorapan</placeName> district <lb/>
+               for members of the Rev. Fight, organ for murderers<lb/>
+               of <persName key="person039">G. Lezhava</persName> came to <placeName key="place051">Cvaliti</placeName>. Beat severely <lb/>
+               <persName key="person040">Rostom Guntzadze</persName> and <persName key="person041">Bochorishvili</persName> but could learn <lb/>
+               only that they had dined at <persName key="person042">Mercvilishvili</persName> and then gone <lb/>
+               toward <placeName key="place052">Puli</placeName>. Burned down <persName key="person042">Mercvilishvili</persName>s five roomed <lb/>
+               house and mercilessly beat the owner. On the road to <lb/>
+               <placeName key="place052">Puli</placeName> Cossacks met two horsemen whom they beat <lb/>
+               until they said that the horses belonged to the men <lb/>
+               they were seeking who were in <placeName key="place053">Ilemi</placeName> and had sent them <lb/>
+            <pb n="109"/>
+               back with horses. </p> 
+            <p>At 9 o’clock in the evening an inhabitant of<lb/>
+               <placeName key="place053">Ilemi</placeName> was preparing supper when a gun was <lb/>
+               fired, then wistler and then a hail of lead on his <lb/>
+               roof. His family all lay down on the floor, and the <lb/>
+               firing lasted 20 minutes. Then a police official <add place="above"><placeName key="place007">Georgia</placeName></add> <lb/>
+               appeared and told them that no one would touch them <lb/>
+               not to be afraid. They were looking for rev. members <lb/>
+               and searched the houses but they were not there. <lb/>
+               Next day <unclear> Iskaul</unclear> made enquiries of people and <lb/>
+               beat many. Same day Cossacks killed <lb/>
+               merchant <persName key="person041">Bochorishvili</persName> who was walking with <lb/>
+               some others because he would did not stop when <lb/>
+               Cossacks called to him. </p>       
+            <pb n="108"/>
+            <p>2972</p>
+            <p>სხივი writes from <placeName key="place037">Gori</placeName>: In the afternoon of 30 Dec., <lb/>
+               Cossacks fell on the villages, <placeName key="place054">Gracali</placeName>, <placeName key="place055">Zaraghaus</placeName>, <lb/>
+               <placeName key="place056">Khandaci</placeName> and <placeName key="place057">Doesi</placeName>. In <placeName key="place055">Zaraghaus</placeName>i. They burned <lb/>
+               2 houses and 2 barns, beat all who came in their way <lb/>
+               and stole what they could. One woman died of fright. <lb/>
+               In <placeName key="place056">Khandaci</placeName> they stole, outraged the women <lb/>
+               and beat all. In <placeName key="place057">Doesi</placeName> they destroyed the proprietor <lb/>
+               Igirgishvili’s doors and windows and beat his მდგმური, <lb/>
+               stole his money and anything they could carry <lb/>
+               away. The same in <placeName key="place054">Gracali</placeName>. People say it is <lb/>
+               worse than Agha Mahmad Khan’s time. </p> 
+         </div>
+         <div>
+            <pb n="107"/>
+            <head>The <placeName key="place058">Guria</placeName>n peasants’ struggle for freedom.</head> 
+            <p>The agrarian movement in <placeName key="place058">Guria</placeName> began on purely <lb/>
+               economic grounds. The peasants need more land; <lb/>
+               it is rare to meet a peasant who has 5 acres; <lb/>
+               most only possess 2½ acres or less. All the <lb/>
+               rest of the land, including extensive forests, is <lb/>
+               in the hands of the princes and nobles who let it <lb/>
+               to the peasants at an impossibly high rental. <lb/>
+               The peasants have also to pay high taxes, both <lb/>
+               direct and indirect, and owing to this</p>
+         </div>
+         <div>
+            <pb n="105"/>
+            <head>Ollendorff’s Russian Grammar.</head>
+            <p><title>Exercise I.</title></p>
+            <p>Имеъте-ли Вы садъ? Да, милостивый <lb/>
+               государь, я имею садъ. Имъете-ли Вы <lb/>
+               мой садъ? Да, имъю вашъ садъ. Имъете ли <lb/>
+               Вы домъ? Да, я имъю домъ. Имъете-ли Вы <lb/>
+               вашъ домъ? Да, я имъю свой домъ. Имъете-<lb/>
+               ли Вы лъсь? Да, я имъю лъсъ. Имъете ли <lb/>
+               Вы мой лъсъ? Да, я имъю ваш лъсъ. Какой <lb/>
+               лъсъ имъете-ли Вы? Я имею свой лъсъ. <lb/>
+               Имъете-ли Вы хлъбъ? Да, мимо милости-<lb/>
+               вый государь, я имъю хлебъ. Имъете ли <lb/>
+               Вы мой хлъбъ? Я имъю вашъ хлебъ. Имъете-<lb/>
+               ли Вы сахаръ? Я имъю сахаръ. Имъете <lb/>
+               ли Вы вашъ сахаръ? Я имъю свой сахаръ. <lb/>
+               Который столъ имъете ли Вы? Я имъю <lb/>
+               свой столъ. Имъете ли Вы мой столъ? <lb/>
+               Я имъю вашъ столъ. </p> 
+            <pb n="104"/>
+            <p><title>2.</title></p>
+            <p>Имъете ли Вы клей? Да, я имъю клей. <lb/>
+               Имъете ли Вы мой клей? Я имъю ваш <lb/>
+               клей. Имъете ли Вы чай? Я имъю свой чай. <lb/>
+               Имъете ли Вы мой уголь? Да, я имъю вашъ <lb/>
+               уголъ. Имъете ли Вы полотно? Да, я имъю <lb/>
+               полотно. Имъете ли Вы солнце? Я имъю <lb/>
+               солнце. Имъете ли Вы время? Я имъю время. Имъете ли Вы мой подсвъчникъ? <add place="above"> моя свъча  мою свъчу?</add> <lb/>
+               Да, я имъю вашу свечу. Имъете ли вы <lb/>
+               дыну. <add place="above">ю</add> Да, я имъю дыню. Имъете ли Вы мою дыню? <lb/>
+               Я имъю вашу дыню. Имъете ли Вы печу? <add place="above">ъ</add> Да, я имъю <lb/>
+               печу? <add place="above">ъ</add>  Имъете ли Вы вашу печу? <add place="above">ъ</add> Я имъю свою печу? <add place="above">ъ</add> <lb/>
+               Имъете ли Вы мою печу? <add place="above">ъ</add> Да, я имъю Вашу <lb/>
+               печу. <add place="above">ъ</add></p>    
+            <p><title>3.</title></p>  
+               <p>Имъете ли Вы деревянный столъ? Нътъ, я его не <lb/>
+               имъю. Какой столъ имъете ли Вы? Я имъю <lb/>
+               каменный столъ. Имъете ли Вы мой золотой <lb/>
+               подсвечникъ? Я его не имъю. Который Какой<lb/>
+            <pb n="103"/>
+               чулокъ имъете ли Вы? Я имъю нитяный <lb/>
+               чулокъ. Имъете ли Вы мой нитяный чулокъ? <lb/>
+               Я имъю Ваш нитяный чулокъ. Имъете ли Вы <lb/>
+               мой башмакъ? Я его не имъю. Имъете ли Вы <lb/>
+               вашъ хорошiй деревянный подсвечникъ? Я его <lb/>
+               не имъю. Какой <add place="above">е</add>дерево имъете ли Вы? Я имъю <lb/>
+               вашъ хорошiй <add place="above">ее</add> дерево. Имъете ли Вы мой <add place="above">е</add> хорошi<add place="above">е</add>е <lb/>
+               золото? Я его не имъю. Какое золото имъете ли <lb/>
+               Вы? Я имъю хорошее дерево. Какой камень имъете <lb/>
+               ли Вы? Я имею Вашъ хорошiй камень. Имъете <lb/>
+               ли Вы мо<del type="over"> й </del><add place="over">его</add> красиваго волка. Я его имъю. <lb/>
+               Имъете ли Вы моего гадкаго быка? Я его не имеъю. <lb/>
+               Какой сыръ имъете ли Вы? Я имъю Вашъ <lb/>
+               хорошiй сыръ. Имъете ли Вы мой суконный <lb/>
+               плащъ? Я его имъю. Какой дворъ имъете ли <lb/>
+               Вы? Я имъю свой каменный дворъ. Какой <lb/>
+               сапогъ имъете ли Вы? Я имъю гадкiй сапогъ. <lb/>
+               Имъете ли Вы хорошiй нитяный чулокъ.<lb/>
+               Я имъю Ваш нитяный чулокъ. Какой сад имъете <lb/>
+               ли Вы? Я имъю свой красивый сад. </p>
+            <pb n="102"/>
+            <p><title>4.</title></p>               
+            <p>Имъете ли Вы мой хорошенкiй ножъ? Я не имею <lb/>
+               Вашъ хорошенкiй ножъ. Какой ножъ имъете ли Вы? Я <lb/>
+               имъю деревянный ножъ.</p>
+            <p><title>Fuchs. I.</title></p>
+            <p>Есть ли у Васъ мой плащъ? У меня свой. Какой <lb/>
+               сыръ у Васъ? У меня свой сыръ. Какой столъ <lb/>
+               у Васъ? У меня Вашъ. Есть ли у Васъ замокъ? <lb/>
+               У меня есть. Есть ли у Васъ стулъ? У меня <lb/>
+               Вашъ стулъ. Какой садъ у Васъ? Свой. Есть ли <lb/>
+               у Васъ медъ? У меня есть. Есть ли у васъ вашъ <lb/>
+               медъ? У меня свой. Есть ли у Васъ домъ. У <lb/>
+               меня есть домъ. </p>
+               <pb n="100"/>
+            <p><title>Ко всему народу.</title></p>
+            <p>Граждане! 9го iюля царь преступной рукой <lb/>
+               подписал указ о разгонъ Госуд. <del type="overstrike">Д</del> <lb/>
+               Думы, которое царское правительство думало <lb/>
+               остановить народное движенiе, не побъдив его<lb/>
+               
+               в кровавое воскресенiе до января; </p>
+            <p>Думы, </p>
+            <pb n="99"/>
+            <table>
+               <row>
+                  <cell>ați venit</cell>
+                  <cell>= you are come</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>dorința</cell>
+                  <cell>desire</cell>
+                  <cell>ca sa</cell>
+                  <cell>that - may (Subj.)</cell>
+               </row>
+               <row>
+                  <cell>intreba</cell>
+                  <cell>ask, question</cell>
+                  <cell>asta</cell>
+                  <cell>that, this</cell>
+               </row>
+               <row>
+                  <cell>ceva</cell>
+                  <cell>something</cell>
+                  <cell>leacuri</cell>
+                  <cell>remedies</cell>
+               </row>
+               <row>
+                  <cell>ci</cell>
+                  <cell>but, on the contrary</cell>
+                  <cell>numai</cell>
+                  <cell>only</cell>
+               </row>
+               <row>
+                  <cell>el o sa fie</cell>
+                  <cell>it will be</cell>
+                  <cell>fet frumos</cell>
+                  <cell>Prince charming</cell>
+               </row>
+               <row>
+                  <cell>full of grace</cell>
+                  <cell>dragastos</cell>
+                  <cell>peste,</cell>
+                  <cell>on, above, over</cell>
+               </row>
+               <row>
+                  <cell>intîmplare</cell>
+                  <cell>event</cell>
+                  <cell></cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell>a avea</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>eu am pâine</cell>
+                  <cell>eu aveam vin</cell>
+               </row>
+               <row>
+                  <cell>tu ai brunt</cell>
+                  <cell>tu aveai bere</cell>
+               </row>
+               <row>
+                  <cell>el are brânza</cell>
+                  <cell>el avea lapte</cell>
+               </row>
+               <row>
+                  <cell>ea are brânza</cell>
+                  <cell>noi aveam cafea</cell>
+               </row>
+               <row>
+                  <cell>noi avem oue</cell>
+                  <cell>voi aveați ceain</cell>
+               </row>
+               <row>
+                  <cell>voi aveți carne</cell>
+                  <cell>ei aveau mântâna</cell>
+               </row>
+               <row>
+                  <cell>ei au apa</cell>
+                  <cell></cell>
+               </row>
+            </table>
+            <pb n="98"/>
+            <table>
+               <row>
+                  <cell>aveam o prajitura</cell>
+                  <cell>eu voi avea carne <add place="above">fiarta</add></cell>
+               </row>
+               <row>
+                  <cell>avea carne de vaca</cell>
+                  <cell>vei avea<del type="overstrike">u</del> carne de porc</cell>
+               </row>
+               <row>
+                  <cell>avea carne de miel</cell>
+                  <cell>va avea supa</cell>
+               </row>
+               <row>
+                  <cell>aveau carne de vițel</cell>
+                  <cell>vom avea <del type="overstrike">cap</del> <add place="above">sare</add></cell>
+               </row>
+               <row>
+                  <cell>aveați suinca</cell>
+                  <cell>veți avea piper</cell>
+               </row>
+               <row>
+                  <cell>aveau friptura</cell>
+                  <cell>vor avea muștar</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell>ași avea <del type="overstrike">om</del> oțet</cell>
+                  <cell>cuțit</cell>
+               </row>
+               <row>
+                  <cell>ai avea unt de lemn</cell>
+                  <cell>furculița</cell>
+               </row>
+               <row>
+                  <cell>ar avea zahar</cell>
+                  <cell>lingura</cell>
+               </row>
+               <row>
+                  <cell>
+                     <del type="overstrike">avem</del> <add place="above">am</add> avea legume
+                  </cell>
+                  <cell>pahare</cell>
+               </row>
+               <row>
+                  <cell>
+                     <del type="overstrike">aveți</del> <add place="above">ați</add> avea carofi
+                  </cell>
+                  <cell>în tot dea una</cell>
+               </row>
+               <row>
+                  <cell>
+                     <del type="overstrike">avec au</del> <add place="above">ar</add> avea
+                  </cell>
+                  <cell>în tot dea una</cell>
+               </row>
+            </table>
+            <p>de vreme. de vreme mai de vreme de vreme. </p>
+            <p>de vreme în tot-dea-una. mai de vreme. </p> 
+            <p>eu am spus eu am spus eu am spus</p>
+            <p>eu am spus eu am spus eu am spus</p>
+            <p>eu am spus eu am spus eu am spus</p>
+            <p>nu se pote nu se pote nu se pote</p>
+            <p>nu se pote nu se pote nu se pote</p>
+            <pb n="97"/>
+            <table>
+               <row>
+                  <cell>eu am mazare avut</cell>
+                  <cell>eu avusesem sparangheli</cell>
+               </row>
+               <row>
+                  <cell>tu ai avut fasole</cell>
+                  <cell>tu avusesei anghinari</cell>
+               </row>
+               <row>
+                  <cell>el a<del type="overstrike">r</del> avut spanac</cell>
+                  <cell>el avusese <del type="overstrike">cep</del> ceapa</cell>
+               </row>
+               <row>
+                  <cell>noi am avut sfecle</cell>
+                  <cell>noi avusesem patrunjel</cell>
+               </row>
+               <row>
+                  <cell>voi ați avut sfecle galbene</cell>
+                  <cell>voi avuseseți hrean</cell>
+               </row>
+               <row>
+                  <cell>ei au avut linte</cell>
+                  <cell>ei avuses<del type="overstrike">ar</del> <add place="above">era</add>ridichie</cell>
+               </row>
+            </table>
+            <table>
+               <row>
+                  <cell>am. ai. are. avem. aveți. au. Ö</cell>
+                  <cell>I have</cell>
+               </row>
+               <row>
+                  <cell>avea <add place="above">m</add>, aveai, avea, aveam, aveați, aveau Ö</cell>
+                  <cell>I had</cell>
+               </row>
+               <row>
+                  <cell>voni avea, voi avea, va avea</cell>
+                  <cell>I will have</cell>
+               </row>
+               <row>
+                  <cell>vom avea, veți avea, vor avea</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>ași avea ai avea ar avea</cell>
+                  <cell>I should have</cell>
+               </row>
+               <row>
+                  <cell>am avea, ați avea</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>a<del type="overstrike">u</del><add place="above">r</add> avea</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>am avut, ai avut a avut</cell>
+                  <cell>I have had</cell>
+               </row>
+               <row>
+                  <cell>am avut ați avut au avut</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>avusesem, avusesei, avusese</cell>
+                  <cell>I had had</cell>
+               </row>
+               <row>
+                  <cell>avusesem, svuseseți, avusesera</cell>
+                  <cell></cell>
+               </row>
+            </table>
+            <p>eu voi fi avut castraveți</p>
+            <p>tu vei fi avut salat</p>
+            <p>el va fi avut fructe</p>
+            <pb n="96"/>
+            <table>
+               <row>
+                  <cell>noi vom fi avut mere</cell>
+                  <cell>eu așe fi avut cireșe</cell>
+               </row>
+               <row>
+                  <cell>voi veți fi avut pere</cell>
+                  <cell>tu ai fi avut prune</cell>
+               </row>
+               <row>
+                  <cell>ei vor fi avut piersice</cell>
+                  <cell>el ar fi avut struguri</cell>
+               </row>
+               <row>
+                  <cell>eu voi fi avut castraveți</cell>
+                  <cell>noi am fi avut fragi</cell>
+               </row>
+               <row>
+                  <cell>tu vei fi avut salata</cell>
+                  <cell>voi ați fi avut smeura</cell>
+               </row>
+               <row>
+                  <cell>el va fi avut fructe</cell>
+                  <cell>eu au fi avut cocase</cell>
+               </row>
+               <row>
+                  <cell>noi vom fi avut mere</cell>
+                  <cell></cell>
+               </row>
+               <row>
+                  <cell>voi veți fi avut pere</cell>
+                  <cell>sa avem let us have</cell>
+               </row>
+               <row>
+                  <cell>ei vor fi avut piersice</cell>
+                  <cell></cell>
+               </row>
+            </table>
+            <p>vom fi avut I shall have had</p>
+            <p>ași fi avut I should have had</p>
+            <p>dați-mi un mer și o para. Luați prune. </p>
+            <p>aduceține agrișe. ai rebdare. </p>
+            <p>Sa avem rebdare. Aveți bunatatea și dați mi o portocala. </p>
+            <p>Fratele meu a <del type="overstrike">avut</del> <add place="above">avem</add> o caisa. </p>
+            <p>Sora mea va avea Migdale. </p>
+            <p>Frații mei au avut smochine. </p>
+            <p>Verul dtale a avut. </p>
+            <p>Verii dtale vor avea alune. </p>
+            <p>Aduceți-mi o castana. </p> 
+            <pb n="95"/>
+            <p>Am eu un cuțit? </p>
+            <p>Ai tu o furculița? </p>
+            <p>Are el o lingura? </p>
+            <p>Avem noi pahare? </p>
+            <p>Aveți voi servete? </p>
+            <p>Au ei o fața de masa? </p>
+            <p>Aveam eu o farfurie? </p>
+            <p>Aveai tu o chee? </p>
+            <p>Avea el o sticla? </p>
+            <p>Aveam noi hârtie? </p>            
+            <p>merinde  provisions</p>
+            <p>pinteni     spurs</p>
+            <p>pierca       destruction, loss</p>
+            <p>care          who, which</p>
+            <p>insoțeasca     should accompany</p>
+            <p>trece           to pass</p>
+            <pb n="94"/>
+            <p>If thou hast learning, thou has a part. I have many<lb/>
+               Ai carte, ai parte. Eu am mulți<lb/>
+               horses in the stable. Thou hast more apples than<lb/>
+               cai in grajd. Tu ai mai multi, mere de cât <lb/>
+               he. She has some poplars in the garden. We have<lb/>
+               el.  El are câți-va plopi în grâdina. Noi <lb/>
+               a lot of oxen in the country. You have very<lb/>
+               avem o mulțime de boi la têra. Voi aveți <del type="overstrike">foarte</del><lb/>
+               fine furniture. They are hungry. I am not very<lb/>
+               mobile foarte frumose. Ei au fime. Sunt puțin<lb/>
+               well I shall go to the baths. Thou art not good<lb/>
+               bolnav am sa me duc la bai. Nu esți bunn la <lb/>
+               hearted, why dost thou not give alms to the beggars<lb/>
+               inima, de ce nu da<del type="overstrike">ț</del><add place="above">i</add> <add place="above">o</add>pomone la cerșitore<lb/>
+               where is father. He is gone into the wood to cut<lb/>
+               Unde este tata? S’a dus la padure ca sa<lb/>
+               Wood. We have been here nearly three hours. <lb/>
+               taie lemne. Süntem <del type="overstrike">aici</del> <add place="above">aci</add> de ve’o trei ciasuri <lb/>
+               If you are strangers be more modest. <lb/>
+               Daca sunteți streini, fiți mai modești.</p>
+            <pb n="93"/>
+            <p>There are Roumanians in Turkey too.  Crow<lb/>
+               Sunt Români și prin Turcia.                     Corb<lb/>
+               does not dig out the eyes of crow. Who is<lb/>
+               la corb nu scote ochii.                       Cine late<lb/>
+               knocking at the door. It is some peasants<lb/>
+               la ușa?                           Sunt nisce țerani<lb/>
+               who are bringing cheese. Send George to the <lb/>
+               cari aduc brânza.  Trimete pe Gheorghe <lb/>
+               market to buy maize meal for mamaliga. <lb/>
+               la têrg ca sa cumpare faina de papușoiu<lb/>
+               In Romania live many Germans, French, <lb/>
+               pentru mamaliga. In România locuiesc mulți<lb/>
+               Greeks and other peoples. From the tail of a dog<lb/>
+               Germani, Francezi Greci și alte națiuni. Din coda de <lb/>
+               one does not make silk. This lady wears<lb/>
+               câne nu ze face matasa. Accasta domna porta<lb/>
+               only golden things. Do not chatter, do your<lb/>
+               numai inele de aur. Nu sta la vorbă, fă-ți<lb/>
+               work and you will have gold. He who sings in <lb/>
+               treba și vei <del type="overstrike">a</del> lua bani.             Cine cânta, <lb/>
+               <pb n="92"/>
+               the morning weeps in the evening. What does this proverb mean? <lb/>
+               De dimineața de seara plânge. Ce insemneza acest proverb. </p>
+            <p><title>2</title></p>
+            <p>Românul nu piere. Parinții iubesc pe copüi <lb/>
+               lor. Sorele lumine<del type="overstrike">a</del>za. Casa vecinului <lb/>
+               arde. Sluga fratelui ânca n’ a adus <lb/>
+               paharul. Eu iți voiu <add place="above">fi</add>recunșcetor <lb/>
+               pentru cinele care meu <add place="above">mi</add> ai facut. Du-te <lb/>
+               asta seara <del type="overstrike">cu</del> la cumnatul meu, vei ave <lb/>
+               multa placer. Secretarul m’ a fagaduit, <lb/>
+               Ca va vorbe cu ministerul de rez<add place="above">s</add> boiu <lb/>
+               despre fiul teu. Canele este animalul <lb/>
+               cel mai credincios. Am intalnit ieri <lb/>
+               amici têi; au dis ca vor veni mâne <lb/>
+               la bine. Asta di vom plati simbria <lb/>
+               lucratorilor din gradin. Baieților! daca <lb/>
+               veți lucra bine septamana viitore bine</p>
+            <pb n="91"/>
+            <p>am să merg cu voi la plimbare. Omul <lb/>
+               <add place="above"> nici odate </add> nu mai <del type="overstrike">este</del> <add place="above">sa</add> mulțamesce cu ceea ce are <lb/>
+               ci tot vre mai mult. Domnule, te rog <lb/>
+               arata mi drumul la Strada baroli. <lb/>
+               Apa a rupte podul. Dinții fearelor sunt mai <lb/>
+               tari de cât ai noștri. Lupul perul <del type="overstrike">se</del> iși schimba <lb/>
+               dar năravul ba. Bucatarul a cumparat <lb/>
+               carne de la macelar. </p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
